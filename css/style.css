@@ -15,95 +15,93 @@
 	}
 }
 
-
-#header{
+#header {
 	width: 97%;
 	margin-left: 2%;
-	border-bottom: solid #777777 1px;	
+	border-bottom: solid #777777 1px;
 	height: 54px;
 }
-#navegacion{
+#navegacion {
 	float: right;
 }
-.seleccionado{
+.seleccionado {
 	border-bottom: solid 3px #0000FF;
 }
-
-#header div a{
+#header div a {
 	display: block;
-	height: 24px;	
+	height: 24px;
 }
-#inicio,#terapia,#orientacion,#contacto{
+#inicio, #terapia, #orientacion, #contacto {
 	float: left;
 	height: 24px;
 	margin: 15px 40px 15px 0px;
-	cursor: pointer; 
+	cursor: pointer;
 }
 
-#inicio{
+#inicio {
 	background: url('images/b_inicio.png');
-	width: 34px;	
-}
-#inicio:hover{
-	background: url('images/b_inicio_onhover.png');
-}
-#inicio a{
 	width: 34px;
 }
-#terapia{
+#inicio:hover {
+	background: url('images/b_inicio_onhover.png');
+}
+#inicio a {
+	width: 34px;
+}
+#terapia {
 	background: url('images/b_terapia.png');
-	width: 46px;	
-}
-#terapia:hover{
-	background: url('images/b_terapia_onhover.png');
-}
-#terapia a{
 	width: 46px;
 }
-#orientacion{
+#terapia:hover {
+	background: url('images/b_terapia_onhover.png');
+}
+#terapia a {
+	width: 46px;
+}
+#orientacion {
 	background: url('images/b_OV.png');
-	width: 151px;	
-}
-
-#orientacion:hover{
-	background: url('images/b_OV_onhover.png');
-}
-#orientacion a{
 	width: 151px;
 }
-#contacto{
+
+#orientacion:hover {
+	background: url('images/b_OV_onhover.png');
+}
+#orientacion a {
+	width: 151px;
+}
+#contacto {
 	background: url('images/b_contacto.png');
-	width: 56px;	
-}
-#contacto:hover{
-	background: url('images/b_contacto_onhover.png');
-}
-#contacto a{
 	width: 56px;
 }
-#logo{
+#contacto:hover {
+	background: url('images/b_contacto_onhover.png');
+}
+#contacto a {
+	width: 56px;
+}
+#logo {
 	background: url('images/logoheader.png');
 	height: 47px;
 	width: 182px;
 	float: left;
 }
-#logo:hover{
+#logo:hover {
 	background: url('images/logoheader_onhover.png');
 }
-html,body,#wrapperHome,#wrapper{
+html, body, #wrapperHome, #wrapper {
 	height: 100%;
 	width: 100%;
 }
-#wrapperHome{
+#wrapperHome {
 	background: url('images/fondo1.jpg');
-	background-size: cover;	
+	background-size: cover;
 }
-#cuerpoHome{
+#cuerpoHome {
 	min-width: 960px;
 	width: 80%;
 	margin: auto;
 }
-#cuerpo{
+#cuerpo {
 	padding-top: 100px;
 	padding-left: 320px;
 	background: url('images/lateral.png') left no-repeat;
@@ -113,71 +111,90 @@ html,body,#wrapperHome,#wrapper{
 	font-size: big;
 	color: #666666;
 }
-#cuerpo p{
+#cuerpo p {
 	max-width: 500px;
 }
-#cuerpo h1{
+#cuerpo h1 {
 	margin-bottom: 30px;
 	font-size: 32px;
 }
-#imgPrincipal{
+#imgPrincipal {
 	margin: auto;
 }
 
-#aclaracion{
+#aclaracion {
 	color: blue;
 	font-size: 10px;
 	margin-top: 40px;
 }
-.mitad{
+.mitad {
 	width: 45%;
 	margin-left: 3%;
 	margin-right: 2%;
 	float: left;
 }
-.formContacto{
+.mitadDerecha{
+	width: 45%;
+	margin-left: 3%;
+	margin-right: 2%;
+	float: right;
+}
+.formContacto {
 	max-width: 700px;
 	margin-top: 20px;
 	min-height: 300px;
 }
-.campoForm{
+.campoForm {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.requerido{
+.requerido {
 	font-family: acLight;
 }
-.campoForm input{
+.campoForm input {
 	border: 0;
-	border-bottom: 1px solid #666666; 
+	border-bottom: 1px solid #666666;
 }
 .campoForm input:focus {
 	border: 0;
 	border-bottom: 1px solid #666666;
 }
-.campoForm textarea{
+.campoForm textarea {
 	border: 0;
 	border-bottom: 1px solid #666666;
-	border-right:  1px solid #666666;
+	border-right: 1px solid #666666;
 }
-.campoForm textarea:focus{
+.campoForm textarea:focus {
 	border: 0;
 	border-bottom: 1px solid #666666;
-	border-right:  1px solid #666666;
+	border-right: 1px solid #666666;
 }
-.requerido:after{
-	content:'    '  url('images/infomas.png');
+.requerido:after {
+	content: '    ' url('images/infomas.png');
 	width: 10px;
 	height: 14px;
 }
-#cv{
+#cv {
 	font-family: acLight;
-	font-size: 12px;	
+	font-size: 12px;
 	margin-top: 100px;
 }
-#concurrencia{
+#concurrencia {
 	font-style: italic;
 }
-#tituloUni{
+#tituloUni {
 	color: blue;
+}
+.contenedorPregunta{
+	margin: 40px 0 40px 0;
+}
+.botonera{
+	min-height: 20px;
+	width: 100%;
+}
+
+.contenedorPregunta p:before{
+	content: '    ' url('images/infomas.png');
+	width: 15px;
+	height: 14px;
 }
