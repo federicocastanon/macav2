@@ -1,0 +1,183 @@
+@media screen {
+	@font-face {
+		font-family: 'acLight';
+		src: url('fonts/accolade-light-webfont.eot');
+		src: url('fonts/accolade-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/accolade-light-webfont.woff') format('woff'), url('fonts/accolade-light-webfont.ttf') format('truetype'), url('fonts/accolade-light-webfont.svg#accolade-lightregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'roboto';
+		src: url('fonts/roboto.eot');
+		src: url('fonts/roboto.eot?#iefix') format('embedded-opentype'), url('fonts/roboto.woff') format('woff'), url('fonts/roboto.ttf') format('truetype'), url('fonts/roboto.svg#roboto_condensedregular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+
+
+#header{
+	width: 97%;
+	margin-left: 2%;
+	border-bottom: solid #777777 1px;	
+	height: 54px;
+}
+#navegacion{
+	float: right;
+}
+.seleccionado{
+	border-bottom: solid 3px #0000FF;
+}
+
+#header div a{
+	display: block;
+	height: 24px;	
+}
+#inicio,#terapia,#orientacion,#contacto{
+	float: left;
+	height: 24px;
+	margin: 15px 40px 15px 0px;
+	cursor: pointer; 
+}
+
+#inicio{
+	background: url('images/b_inicio.png');
+	width: 34px;	
+}
+#inicio:hover{
+	background: url('images/b_inicio_onhover.png');
+}
+#inicio a{
+	width: 34px;
+}
+#terapia{
+	background: url('images/b_terapia.png');
+	width: 46px;	
+}
+#terapia:hover{
+	background: url('images/b_terapia_onhover.png');
+}
+#terapia a{
+	width: 46px;
+}
+#orientacion{
+	background: url('images/b_OV.png');
+	width: 151px;	
+}
+
+#orientacion:hover{
+	background: url('images/b_OV_onhover.png');
+}
+#orientacion a{
+	width: 151px;
+}
+#contacto{
+	background: url('images/b_contacto.png');
+	width: 56px;	
+}
+#contacto:hover{
+	background: url('images/b_contacto_onhover.png');
+}
+#contacto a{
+	width: 56px;
+}
+#logo{
+	background: url('images/logoheader.png');
+	height: 47px;
+	width: 182px;
+	float: left;
+}
+#logo:hover{
+	background: url('images/logoheader_onhover.png');
+}
+html,body,#wrapperHome,#wrapper{
+	height: 100%;
+	width: 100%;
+}
+#wrapperHome{
+	background: url('images/fondo1.jpg');
+	background-size: cover;	
+}
+#cuerpoHome{
+	min-width: 960px;
+	width: 80%;
+	margin: auto;
+}
+#cuerpo{
+	padding-top: 100px;
+	padding-left: 320px;
+	background: url('images/lateral.png') left no-repeat;
+	min-height: 500px;
+	height: 80%;
+	font-family: acLight;
+	font-size: big;
+	color: #666666;
+}
+#cuerpo p{
+	max-width: 500px;
+}
+#cuerpo h1{
+	margin-bottom: 30px;
+	font-size: 32px;
+}
+#imgPrincipal{
+	margin: auto;
+}
+
+#aclaracion{
+	color: blue;
+	font-size: 10px;
+	margin-top: 40px;
+}
+.mitad{
+	width: 45%;
+	margin-left: 3%;
+	margin-right: 2%;
+	float: left;
+}
+.formContacto{
+	max-width: 700px;
+	margin-top: 20px;
+	min-height: 300px;
+}
+.campoForm{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.requerido{
+	font-family: acLight;
+}
+.campoForm input{
+	border: 0;
+	border-bottom: 1px solid #666666; 
+}
+.campoForm input:focus {
+	border: 0;
+	border-bottom: 1px solid #666666;
+}
+.campoForm textarea{
+	border: 0;
+	border-bottom: 1px solid #666666;
+	border-right:  1px solid #666666;
+}
+.campoForm textarea:focus{
+	border: 0;
+	border-bottom: 1px solid #666666;
+	border-right:  1px solid #666666;
+}
+.requerido:after{
+	content:'    '  url('images/infomas.png');
+	width: 10px;
+	height: 14px;
+}
+#cv{
+	font-family: acLight;
+	font-size: 12px;	
+	margin-top: 100px;
+}
+#concurrencia{
+	font-style: italic;
+}
+#tituloUni{
+	color: blue;
+}

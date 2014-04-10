@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<title>Orientacion Vocacional</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="logo"></div>
+				<div id="navegacion">
+					<div id="inicio">
+						<a href="home.html"></a>
+					</div>
+					<div id="terapia">
+						<a href="terapia.html"></a>
+					</div>
+					<div id="orientacion">
+						<a href="orientacion.html"></a>
+					</div>
+					<div id="contacto" class="seleccionado">
+						<a href="contacto.html"></a>
+					</div>
+				</div>
+			</div>
+			<div id="cuerpo">
+				<h1> Contactame </h1>
+				<p class="titulomenor" style="max-width: 500px">
+					No dudes en enviarme cualquier consulta
+				</p>
+				<h2 id="aclaracion">Todos los campos son obligatorios</h2>
+				<form class="formContacto" name="formu" id="formu" action="index.php?unirse=1&amp;ubi=0&amp;sububi=7" method="post" enctype="multipart/form-data">
+					<div class="mitad">
+						<div class="campoForm">
+							<label for="nombre" class="requerido">Nombre</label>
+							<input id="nombre" type="text" tabindex="1">
+						</div>
+						<div class="campoForm">
+							<label for="mail" class="requerido">Mail</label>
+							<input id="mail" type="email" tabindex="2">
+						</div>
+						<div class="botones">
+							<input type="button" value="Enviar" id="manda" name="manda" onclick="javascript:validar();">
+						</div>
+					</div>
+					<div class="mitad">
+						<div class="campoForm">
+							<label for="organizacion" class="requerido">Cómo llegaste a ésta página</label>
+							<input id="organizacion" type="text" tabindex="3" style="width: 100%;">
+						</div>
+						<div class="campoForm ">
+							<p class="requerido">
+								Consultas
+							</p>
+							<textarea id="consulta" class="campoFormTextArea" name="consulta" 
+							cols="50" rows="3" tabindex="4" ></textarea>
+						</div>
+					</div>
+
+				</form>
+				<div id="cv">
+					<p>
+						<strong>Macarena Martín</strong> - (54 9) 115 996 4119
+					</p>
+					<p id="tituloUni">
+						Licenciada en Psicología - Egresada de la Universidad de Buenos Aires
+					</p>
+					<p id="concurrencia">
+						Concurrente en el Hospital Ameghino
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

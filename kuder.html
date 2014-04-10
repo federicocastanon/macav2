@@ -1,0 +1,118 @@
+<!DOCTYPE html >
+<html lang="es">
+	<head>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>Orientacion Vocacional</title>
+	</head>
+	<body>
+	
+	<script>
+	var preguntas = [];
+	var puntajes = [0,0,0,0,0,0,0,0,0,0,0];
+	var nombres= ['Externo','Mecanico','Calculo','Cientifico','Persuasivo','Artistico','Literario','Musical','Social','Metodico','Validez'];
+	var ultimaOpcion = 0;
+	var posV = [0,0,0];
+	var negV = [0,0,0];
+	$(document).ready(function() {
+					$.get('xml/preguntasVocacion.xml', function(d) {
+						xmlDoc = d;
+						var pregunta;
+						$(d).find('pregunta').each(function() {
+							var $p = $(this);
+							pregunta = { id: $p.find('idPreg').text(),
+								texto: $p.find('texto').text(),
+								pos: $p.find('suma').text(),
+								neg: $p.find('resta').text()							
+							}
+							preguntas.push(pregunta);
+						})
+						//todas las preguntas cargadas en el array
+						cargarTresOpciones(ultimaOpcion);
+				});
+				$("#resultados").hide();
+			});
+	
+	function cargarTresOpciones(numeroPregunta)
+	{
+		var pre = preguntas[numeroPregunta];
+		$("#texto1").html(pre.texto);
+		posV[0]=pre.pos;
+		negV[0]=pre.neg;
+		numeroPregunta++;
+		pre = preguntas[numeroPregunta];
+		$("#texto2").html(pre.texto);
+		posV[1]=pre.pos;
+		negV[1]=pre.neg;
+		numeroPregunta++;
+		pre = preguntas[numeroPregunta];
+		$("#texto3").html(pre.texto);
+		posV[2]=pre.pos;
+		negV[2]=pre.neg;
+		numeroPregunta++;
+		ultimaOpcion = numeroPregunta;
+		$(".pos").show();
+		$(".neg").show();
+		
+		if(ultimaOpcion >504){
+			$(".sig").hide();
+		}
+	}
+	
+	function pos(n)
+	{		
+		var posASumar=posV[n].split("|");
+		for(var i = 0; i < posASumar.length; i++){
+			puntajes[posASumar[i]]++;		
+		}		
+		$(".pos").hide();
+		$("#neg" + n).hide();
+	}
+	function neg(n)
+	{		
+		var posASumar=negV[n].split("|");
+		for(var i = 0; i < posASumar.length; i++){
+			puntajes[posASumar[i]]++;		
+		}
+		$(".neg").hide();
+		$("#pos" + n).hide();		
+	}
+				
+	function finalizar()
+	{
+		
+		var html = '<div class="mitad titulo">Categoria</div><div class="mitad titulo">Cantidad de Aciertos</div>';
+		for(var i=0; i < nombres.length; i++){
+			html += '<div class="mitad">'+nombres[i] +'</div><div class="mitad">'+ puntajes[i] +'</div>';
+		}
+		$("#resultados").html(html);
+		$("#resultados").show();
+	}
+				
+	
+	</script>
+	
+	<div id="container">
+		<div id="explicacion">Seleccione la opci&oacute;n que m&aacute;s le gusta y la que menos le gusta. Una quedar&aacute; siempre sin seleccionar.</div>
+		<div id="opcion1">
+			<p id="texto1"></p>
+			<button class="pos" id="pos0" onclick="pos(0)">Me gusta m&aacute;s</button>
+			<button class="neg" id="neg0" onclick="neg(0)">Me gusta menos</button>
+		</div>
+		<div id="opcion2">
+			<p id="texto2"></p>
+			<button class="pos" id="pos1" onclick="pos(1)">Me gusta m&aacute;s</button>
+			<button class="neg" id="neg1" onclick="neg(1)">Me gusta menos</button>
+		</div>
+		<div id="opcion3">
+			<p id="texto3"></p>
+			<button class="pos" id="pos2" onclick="pos(2)">Me gusta m&aacute;s</button>
+			<button class="neg" id="neg2" onclick="neg(2)">Me gusta menos</button>
+		</div>
+		
+		<button class="sig" onclick="cargarTresOpciones(ultimaOpcion)">Siguiente</button>
+		<button class="fin" onclick="finalizar()">Finalizar</button>
+	</div>
+	<div id="resultados"></div>
+	</body>
+</html>

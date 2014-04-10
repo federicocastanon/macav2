@@ -1,0 +1,3027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<pregunta>
+		<idPreg>1</idPreg>
+		<texto>Leer un libro para si mismo</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>2</idPreg>
+		<texto>Leer un libro a otra persona</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>3</idPreg>
+		<texto>Que alguien lea un libro para usted</texto>
+		<suma></suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>4</idPreg>
+		<texto>Componer un acerradura rota</texto>
+		<suma>1</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>5</idPreg>
+		<texto>Buscar los errores en un informe </texto>
+		<suma></suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>6</idPreg>
+		<texto>Sumar columnas de números</texto>
+		<suma>2</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>7</idPreg>
+		<texto>Hablar más que escuchar</texto>
+		<suma>6|4</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>8</idPreg>
+		<texto>Escuchar más que hablar</texto>
+		<suma></suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>9</idPreg>
+		<texto>Hablar tanto como escuchar</texto>
+		<suma>6|4</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>10</idPreg>
+		<texto>Visitar un gran establecimiento frutícula</texto>
+		<suma>0</suma>
+		<resta>8|4|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>11</idPreg>
+		<texto>Visitar una fabrica de aviones</texto>
+		<suma>1</suma>
+		<resta>8|4|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>12</idPreg>
+		<texto>Visitar un establecimiento carcelario</texto>
+		<suma>8|4</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>13</idPreg>
+		<texto>Prestar especial atención a la gente cuando viaja</texto>
+		<suma></suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>14</idPreg>
+		<texto>Observar la belleza de los paisajes cuando viaja</texto>
+		<suma>0</suma>
+		<resta>0|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>15</idPreg>
+		<texto>Prestar atención a los cultivos cuando viaja</texto>
+		<suma>0</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>16</idPreg>
+		<texto>Leer para un estudiante ciego</texto>
+		<suma>8</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>17</idPreg>
+		<texto>Llevar un registro de los asuntos que pasan por un lugar</texto>
+		<suma></suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>18</idPreg>
+		<texto>Recopilar información para un periódico hablando con la gente</texto>
+		<suma>4</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>19</idPreg>
+		<texto>Ir a un parque de diversiones</texto>
+		<suma>9</suma>
+		<resta>0|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>20</idPreg>
+		<texto>Observar las conservas de alimentos que se exhiben en una feria</texto>
+		<suma>9|10</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>21</idPreg>
+		<texto>Ver los animales que se exhiben en una feria</texto>
+		<suma>0</suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>22</idPreg>
+		<texto>Buscar libros interesantes en una biblioteca</texto>
+		<suma>6</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>23</idPreg>
+		<texto>Observar los ensayos de una gran orquesta</texto>
+		<suma>7</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>24</idPreg>
+		<texto>Visitar un acuario para observar peces u otros animales acuáticos</texto>
+		<suma></suma>
+		<resta>7|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>25</idPreg>
+		<texto>Coleccionar autógrafos de gente famosa</texto>
+		<suma>4</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>26</idPreg>
+		<texto>Coleccionar mariposas</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>27</idPreg>
+		<texto>Coleccionar trozos de diferentes maderas</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>28</idPreg>
+		<texto>Explorar las ruinas de una ciudad antigua</texto>
+		<suma></suma>
+		<resta>6|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>29</idPreg>
+		<texto>Exponer conferencias sobre ciudades antiguas</texto>
+		<suma>10</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>30</idPreg>
+		<texto>Escribir artículos sobre ciudades antiguas</texto>
+		<suma>6|10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>31</idPreg>
+		<texto>Planificar una fiesta</texto>
+		<suma>4</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>32</idPreg>
+		<texto>Preparar los adornos para la fiesta</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>33</idPreg>
+		<texto>Enviar las invitaciones para la fiesta</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>34</idPreg>
+		<texto>Visitar una estación meterológica</texto>
+		<suma></suma>
+		<resta>9|4|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>35</idPreg>
+		<texto>Visitar una empresa dedicada a la publicidad</texto>
+		<suma>4</suma>
+		<resta>9|3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>36</idPreg>
+		<texto>Visitar una fabrica de computadores</texto>
+		<suma>9|1</suma>
+		<resta>4|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>37</idPreg>
+		<texto>Guiar a los visitantes en un parque nacional</texto>
+		<suma>8</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>38</idPreg>
+		<texto>Fabricar joyas</texto>
+		<suma></suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>39</idPreg>
+		<texto>Componer música para un intérprete</texto>
+		<suma>7</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>40</idPreg>
+		<texto>Seguir un curso de dibujo</texto>
+		<suma>5</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>41</idPreg>
+		<texto>Seguir un curso de botánica y zoología</texto>
+		<suma>3</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>42</idPreg>
+		<texto>Seguir un curso sobre trabajo en metales</texto>
+		<suma>1</suma>
+		<resta>5|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>43</idPreg>
+		<texto>Construir casas para los pájaros</texto>
+		<suma>1</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>44</idPreg>
+		<texto>Escribir historias sobre pájaros</texto>
+		<suma>6</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>45</idPreg>
+		<texto>Dibijar cuadros de pájaros</texto>
+		<suma>5</suma>
+		<resta>6|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>46</idPreg>
+		<texto>Comenzar por las historietas al leer un diario</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>47</idPreg>
+		<texto>Comenzar por las noticias  al leer un diario</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>48</idPreg>
+		<texto>Coemnzar por los editoriales  al leer un diario</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>49</idPreg>
+		<texto>Escuchar una charla sobre cultivos</texto>
+		<suma>0</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>50</idPreg>
+		<texto>Escuchar una charla sobre metales y piedras</texto>
+		<suma>1</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>51</idPreg>
+		<texto>Escuchar una charla de fotografía</texto>
+		<suma>0</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>52</idPreg>
+		<texto>Ayudar a un nuevo amigo a conocer la ciudad</texto>
+		<suma>8</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>53</idPreg>
+		<texto>Enseñarle pruebas a un perro</texto>
+		<suma>0</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>54</idPreg>
+		<texto>Vender entradas para una fiesta </texto>
+		<suma>4</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>55</idPreg>
+		<texto>Tabular las respuestas de una encuesta</texto>
+		<suma>2</suma>
+		<resta>8|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>56</idPreg>
+		<texto>Escribir para un periódico</texto>
+		<suma>6</suma>
+		<resta>8|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>57</idPreg>
+		<texto>Enseñar manualidades a niños de escasos recursos</texto>
+		<suma>8</suma>
+		<resta>6|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>58</idPreg>
+		<texto>Visitar el laboratorio de un inventor famoso</texto>
+		<suma>3</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>59</idPreg>
+		<texto>Visitar un parque nacional en las montañas</texto>
+		<suma>0</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>60</idPreg>
+		<texto>Visitar un lugar histórico donde se libró un combate</texto>
+		<suma></suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>61</idPreg>
+		<texto>Leer sobre cómo hicieron sus experimenos los científicos famosos</texto>
+		<suma>3</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>62</idPreg>
+		<texto>Leer opiniones de gente sobre cómo deberia ser un mundo mejor</texto>
+		<suma></suma>
+		<resta>3|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>63</idPreg>
+		<texto>Leer sobre los pioneros del país</texto>
+		<suma>0</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>64</idPreg>
+		<texto>Ayudar a la gente a relacionarse mejor </texto>
+		<suma>8</suma>
+		<resta>9|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>65</idPreg>
+		<texto>Capturar animales raros para un museo</texto>
+		<suma>3|0</suma>
+		<resta>9|8|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>66</idPreg>
+		<texto>Cobrar cheques en el banco para otras personas</texto>
+		<suma>9|2</suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>67</idPreg>
+		<texto>Forma parte de un debate sobre problemas del mundo moderno</texto>
+		<suma>8</suma>
+		<resta>6|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>68</idPreg>
+		<texto>Formar parte de un debate sobre nuevos libros</texto>
+		<suma>6</suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>69</idPreg>
+		<texto>Formar parte de un grupo que estudia las estrellas|planetas</texto>
+		<suma>3</suma>
+		<resta>8|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>70</idPreg>
+		<texto>Que la maestra critique su exámen delante de clase</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>71</idPreg>
+		<texto>Que la maestra escriba sus comentarios en la misma hoja del exámen</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>72</idPreg>
+		<texto>Que la maestra critique su exámen en una conversacion a solas</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>73</idPreg>
+		<texto>Idear su propia manera de hacer un trabajo</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>74</idPreg>
+		<texto>Recibir indicaciones precisas sobre cómo hacerlo</texto>
+		<suma>9</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>75</idPreg>
+		<texto>Recibir instrucciones generales pero decidir los detalle spor su cuenta</texto>
+		<suma></suma>
+		<resta>9|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>76</idPreg>
+		<texto>Enseñar a un niño a atarse los zapatos</texto>
+		<suma></suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>77</idPreg>
+		<texto>Evitar una pelea entre dos niños perqueños</texto>
+		<suma>4</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>78</idPreg>
+		<texto>Idear nuevas recetas para cocinar</texto>
+		<suma></suma>
+		<resta>8|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>79</idPreg>
+		<texto>Hacer bizcochos y caramelos</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>80</idPreg>
+		<texto>Vender bizcochos y caramelos</texto>
+		<suma>4</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>81</idPreg>
+		<texto>Tomar pedidos de bizcochos y caramelos por teléfono</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>82</idPreg>
+		<texto>Manejar una librería</texto>
+		<suma>4</suma>
+		<resta>7|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>83</idPreg>
+		<texto>Dirigir una banda de música</texto>
+		<suma>7|4</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>84</idPreg>
+		<texto>Ser experto en sacar fotografías</texto>
+		<suma>5</suma>
+		<resta>7|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>85</idPreg>
+		<texto>Escribir algunas cartas que le dicte un amigo ciego</texto>
+		<suma>9</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>86</idPreg>
+		<texto>Ayudar a un amigo ciego a planear el uso para su dinero</texto>
+		<suma>2</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>87</idPreg>
+		<texto>Escribir cartas de recomendación para un amigo ciego que busca trabajo</texto>
+		<suma></suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>88</idPreg>
+		<texto> Ganar para parte de sus gastos ayudando en el laboratorio de su escuela</texto>
+		<suma>2</suma>
+		<resta>9|7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>89</idPreg>
+		<texto>Ganar para parte de sus gastos calificando exámenes en su escuela</texto>
+		<suma>9</suma>
+		<resta>7|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>90</idPreg>
+		<texto>Ganar para parte de sus gastos tocando en la banda de su escuela</texto>
+		<suma>7</suma>
+		<resta>9|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>91</idPreg>
+		<texto>Escribir un artículo sobre la cuz roja</texto>
+		<suma>8</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>92</idPreg>
+		<texto>Buscar nuevos hechos respecto de un acontecimiento famoso en la historia</texto>
+		<suma>3</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>93</idPreg>
+		<texto>Escribir una comedia musical</texto>
+		<suma>7</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>94</idPreg>
+		<texto>Trabajar en la seccion referencias de una biblioteca, a|udando a los studiantes</texto>
+		<suma>8|6</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>95</idPreg>
+		<texto>Trabajar en la sección de compras de una biblioteca, redactando los pedidos de libros</texto>
+		<suma>9</suma>
+		<resta>8|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>96</idPreg>
+		<texto>Trabajar en la sección de préstamos una biblioteca, atendiendo al público</texto>
+		<suma>4</suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>97</idPreg>
+		<texto>Aprender nuevas palabras</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>98</idPreg>
+		<texto>Mejorar la letra</texto>
+		<suma>9</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>99</idPreg>
+		<texto>Mejorar la capacidad para hablar en público</texto>
+		<suma></suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>100</idPreg>
+		<texto>Escuchar un debate sobre política</texto>
+		<suma></suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>101</idPreg>
+		<texto>Formar parte de un debate sobre política</texto>
+		<suma></suma>
+		<resta>4|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>102</idPreg>
+		<texto>Dirigir  un debate sobre política</texto>
+		<suma>4</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>103</idPreg>
+		<texto>Estar a cargo de la contratación del personal de una empresa</texto>
+		<suma>9|4</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>104</idPreg>
+		<texto>Escribir artículos sobre animales salvajes</texto>
+		<suma>0</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>105</idPreg>
+		<texto>Escribir una columna de consejos personales en un periódico</texto>
+		<suma>4</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>106</idPreg>
+		<texto>Leer sobre métodos comerciales modernos</texto>
+		<suma>4</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>107</idPreg>
+		<texto>Leer sobre las costubres de gente de otros países</texto>
+		<suma></suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>108</idPreg>
+		<texto>Leer sobre métodos agrícolas modernos</texto>
+		<suma>0</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>109</idPreg>
+		<texto>Trabajar en una estación meteorológica en el Polo Sur</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>110</idPreg>
+		<texto>Trabajar en una estación meteorológica en la ciudad</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>111</idPreg>
+		<texto>Trabajar enuna estación meteorológica en las montañas</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>112</idPreg>
+		<texto>Ser bien conocido como director de investigaciones científicas</texto>
+		<suma>3</suma>
+		<resta>8|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>113</idPreg>
+		<texto>Ser bien conocido como asistente social</texto>
+		<suma>8</suma>
+		<resta>6|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>114</idPreg>
+		<texto>Ser bien conocido como alguien que escribe sus opiniones en libros</texto>
+		<suma>6</suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>115</idPreg>
+		<texto>Diseñar el decorado de una obra teatral</texto>
+		<suma>5</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>116</idPreg>
+		<texto>Verificar la calidad de un producto nuevo </texto>
+		<suma>3|1</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>117</idPreg>
+		<texto>Escribir una guía sobre la reparación de aparatos electrónicos</texto>
+		<suma>1</suma>
+		<resta>5|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>118</idPreg>
+		<texto>Pensar en lo que haría si pudiera convertir en realidad tres deseos</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>119</idPreg>
+		<texto>Pensar en los planes para las próximas vacaciones</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>120</idPreg>
+		<texto>Pensar en cómo sería perder la memoria durante un año</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>121</idPreg>
+		<texto>Fabricar un telar para tejer telas manualmente</texto>
+		<suma>1</suma>
+		<resta>8|4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>122</idPreg>
+		<texto>Recoger cifras sobre qué es lo que está ocurriendo en el comercio</texto>
+		<suma>4|2</suma>
+		<resta>8|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>123</idPreg>
+		<texto>Realizar un estudio sobre lo que piensan los jóvenes respecto a asistir a la iglesia</texto>
+		<suma>8</suma>
+		<resta>4|2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>124</idPreg>
+		<texto>Escribir la sección económica de un periódico</texto>
+		<suma></suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>125</idPreg>
+		<texto>Trabajar en el perfeccionamiento de un nuevo metal fuerte|liviano</texto>
+		<suma>3</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>126</idPreg>
+		<texto>Administrar obras industriales</texto>
+		<suma>8</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>127</idPreg>
+		<texto>Visitar un museo de bellas artes</texto>
+		<suma></suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>128</idPreg>
+		<texto>Visitar un lugar donde puede ir a divertirse la gente pobre</texto>
+		<suma>8</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>129</idPreg>
+		<texto>Visitar un laboratorio donde se elabora nuevos medicamentos</texto>
+		<suma>3</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>130</idPreg>
+		<texto>Leer sobre los últimos acontecimientos en el campo de la música</texto>
+		<suma>7</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>131</idPreg>
+		<texto>Leer las reseñas de nuevos libros</texto>
+		<suma>6|4</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>132</idPreg>
+		<texto>Leer sobre las costubres sociales en otros países</texto>
+		<suma></suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>133</idPreg>
+		<texto>Escribir la letra de una canción</texto>
+		<suma>6</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>134</idPreg>
+		<texto>descubrir la cura para una enfermedad mortal</texto>
+		<suma>3</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>135</idPreg>
+		<texto>Idear métodos mejores para ejecutar trabajos de oficina e una empresa</texto>
+		<suma>9</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>136</idPreg>
+		<texto>Comprar un artículo caro pagándolo en pequeñas cuotas</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>137</idPreg>
+		<texto>Pedirle plata prestada a un amigo para comprar ese artículo</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>138</idPreg>
+		<texto>Ahorrar hasta poder comprar ese artículo al contado</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>139</idPreg>
+		<texto>Explicarle a los niños los nuevos descubrimientos de la ciencia</texto>
+		<suma>3</suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>140</idPreg>
+		<texto>Explicarle a los niños el uso de los horarios</texto>
+		<suma>9</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>141</idPreg>
+		<texto>Explicarle a los niños como cambia el poder adquisitivo del dinero</texto>
+		<suma>9|2</suma>
+		<resta>9|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>142</idPreg>
+		<texto>Vender diarios en una esquina muy concurrida</texto>
+		<suma>4</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>143</idPreg>
+		<texto>Anotar la cantidad de automóviles que pasa por la esquina cada hora</texto>
+		<suma>2</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>144</idPreg>
+		<texto>Distribuir anuncios de una liquidación en una esquina</texto>
+		<suma>4</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>145</idPreg>
+		<texto>Ayudar a niños impedidos a aprender a caminar mejor</texto>
+		<suma>8</suma>
+		<resta>0|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>146</idPreg>
+		<texto>Cultiva verduras</texto>
+		<suma>0</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>147</idPreg>
+		<texto>Enseñar a tejer y fabricar cestas de mimbre</texto>
+		<suma></suma>
+		<resta>8|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>148</idPreg>
+		<texto>Solicitar dinero para una campaña de beneficencia</texto>
+		<suma>4</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>149</idPreg>
+		<texto>Enviar informes diarios sobre la marcha de una campaña de beneficencia</texto>
+		<suma>6</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>150</idPreg>
+		<texto>Llevar un registro de cuanto dinero ha prometido dar a la gente</texto>
+		<suma>9</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>151</idPreg>
+		<texto>Hacerse cargo de la organización de una gran boda</texto>
+		<suma>4</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>152</idPreg>
+		<texto>Entregar las invitaciones de una gran boda</texto>
+		<suma>9</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>153</idPreg>
+		<texto>Escribir una crónica peridística de una gran boda</texto>
+		<suma>6</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>154</idPreg>
+		<texto>Escribir cuentos </texto>
+		<suma>6</suma>
+		<resta>7|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>155</idPreg>
+		<texto>Hacer una investigacion sobre los efectos de la música en la gente</texto>
+		<suma>7</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>156</idPreg>
+		<texto>Fabricar fuentes y ceniceros de cerámica</texto>
+		<suma>5</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>157</idPreg>
+		<texto>Efectuar estudios para descubrir la mejor forma de vender ciertos productos</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>158</idPreg>
+		<texto>Clasificar la correspondencia en una oficina postal</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>159</idPreg>
+		<texto>Escribir chistes para programas de radio y televisión</texto>
+		<suma>6</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>160</idPreg>
+		<texto>Escribir la sección de actualidad de un periódico</texto>
+		<suma>6</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>161</idPreg>
+		<texto>Pronunciar conferencias populares sobre química</texto>
+		<suma>3</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>162</idPreg>
+		<texto>Ayudar a jóvenes a elegir que oficio haran en un futuro</texto>
+		<suma>8</suma>
+		<resta>6|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>163</idPreg>
+		<texto>Que la gente le diga qué estuvo mal en una charla su|a</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>164</idPreg>
+		<texto>Que la gente le dia qué le gusto de una charla suya</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>165</idPreg>
+		<texto>Que la gente no diga nada acerca de su charla</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>166</idPreg>
+		<texto>Estar a cargo de un departamento  importante en una tienda </texto>
+		<suma>9|4</suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>167</idPreg>
+		<texto>Realizar investigaciones para mejorar la televisión</texto>
+		<suma>3</suma>
+		<resta>9|8|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>168</idPreg>
+		<texto>Organizar actividades sociales para grupos de gente pobres</texto>
+		<suma>8</suma>
+		<resta>9|4|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>169</idPreg>
+		<texto>Mantener llenos los estante de un almacén</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>170</idPreg>
+		<texto>Manejar un negocio de ragalos</texto>
+		<suma>4</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>171</idPreg>
+		<texto>Mecanografiar cartas</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>172</idPreg>
+		<texto>Que alguien lo haga parecer ridículo</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>173</idPreg>
+		<texto>Hacer que algún otro parezca ridículo</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>174</idPreg>
+		<texto>Que nadie parezca ridículo</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>175</idPreg>
+		<texto>Tratar de fabricar caramelos no conociendo la receta</texto>
+		<suma></suma>
+		<resta>8|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>176</idPreg>
+		<texto>Contarles cuentos a los niños</texto>
+		<suma></suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>177</idPreg>
+		<texto>Pintar con acuarelas</texto>
+		<suma>5</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>178</idPreg>
+		<texto>Realizar investigaciones químicas</texto>
+		<suma>3</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>179</idPreg>
+		<texto>Hablar con las personas para decidir si emplearlas o no</texto>
+		<suma>9|8|4</suma>
+		<resta>6|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>180</idPreg>
+		<texto>Escribir historias con interés humano para un periódico</texto>
+		<suma>8|6</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>181</idPreg>
+		<texto>Dibujar un cuadro con veleros</texto>
+		<suma>5</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>182</idPreg>
+		<texto>Probar diferentes velas en un velero para ver cual queda mejor</texto>
+		<suma>1</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>183</idPreg>
+		<texto>Escribir un poema sobre veleros</texto>
+		<suma>6</suma>
+		<resta>5|3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>184</idPreg>
+		<texto>Vender entradas para una obra teatral del barrio</texto>
+		<suma>4</suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>185</idPreg>
+		<texto>Hacer las entradas para esa obra</texto>
+		<suma></suma>
+		<resta>4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>186</idPreg>
+		<texto>Ser el tesorero de los fondos recopilados de las ventas de las entradas</texto>
+		<suma>2</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>187</idPreg>
+		<texto>Calcular el costo de frabricación de un nuevo diseño de lavaplatos</texto>
+		<suma>2</suma>
+		<resta>8|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>188</idPreg>
+		<texto>Persuadir a la gente para que utilice un nuevo tipo de lavaplatos</texto>
+		<suma>4</suma>
+		<resta>8|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>189</idPreg>
+		<texto>Enseñar a la gente a utilizar el lavaplatos</texto>
+		<suma>8</suma>
+		<resta>4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>190</idPreg>
+		<texto>Dictar cartas mediante el uso de un grabador</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>191</idPreg>
+		<texto>Mecanografiar cartas que alguien le dicta</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>192</idPreg>
+		<texto>Obtener pedidos de compra de grabadores</texto>
+		<suma></suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>193</idPreg>
+		<texto>Leer sobre nuevos hallazgos respecto de las causas de enfermedades</texto>
+		<suma>3</suma>
+		<resta>4|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>194</idPreg>
+		<texto>Leer sobre cómo llegaron a tener éxito los líderes indrustriales</texto>
+		<suma>4</suma>
+		<resta>3|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>195</idPreg>
+		<texto>Leer sobre cómo criar animales en una granja</texto>
+		<suma>0</suma>
+		<resta>4|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>196</idPreg>
+		<texto>Ir a una fiesta donde la mayoria de los asistentes no son conocidos</texto>
+		<suma>4|10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>197</idPreg>
+		<texto>Ir a una fiesta donde la mayoría de los asistentes son conocidos</texto>
+		<suma>4</suma>
+		<resta>4|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>198</idPreg>
+		<texto>Ir a una fiesta donde conoce la mitad de gente</texto>
+		<suma></suma>
+		<resta>4|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>199</idPreg>
+		<texto>Vender materiales para artistas</texto>
+		<suma>4</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>200</idPreg>
+		<texto>Cultivar flores</texto>
+		<suma></suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>201</idPreg>
+		<texto>Criar ratones blancos para científicos</texto>
+		<suma>3</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>202</idPreg>
+		<texto>Realizar experimientos de laboratorio</texto>
+		<suma>3</suma>
+		<resta>4|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>203</idPreg>
+		<texto>Fabricar muebles</texto>
+		<suma>1</suma>
+		<resta>4|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>204</idPreg>
+		<texto>Vender seguros</texto>
+		<suma>4</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>205</idPreg>
+		<texto>Visitar una exhibición de máquinas que resuelven problemas</texto>
+		<suma>2</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>206</idPreg>
+		<texto>Visitar una exhibición de maquinas que copian dibujos al instante</texto>
+		<suma>9</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>207</idPreg>
+		<texto>Visitar un famoso laboratorio de investigaciones</texto>
+		<suma>3</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>208</idPreg>
+		<texto>Pesar paquetes y determinar que franqueo deben pagar</texto>
+		<suma>9</suma>
+		<resta>6|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>209</idPreg>
+		<texto>Seleccionar para su publicación los cuentos enviados para una revista</texto>
+		<suma>6</suma>
+		<resta>9|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>210</idPreg>
+		<texto>Probar automóviles nuevos para determinar cómo se los puede mejorar</texto>
+		<suma>1</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>211</idPreg>
+		<texto>Ser experto en el tallado de piedras preciosas</texto>
+		<suma>1</suma>
+		<resta>7|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>212</idPreg>
+		<texto>Realizar investigaciones para realizar un mejor tipo de caucho</texto>
+		<suma>3|1</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>213</idPreg>
+		<texto>Dar lecciones de música</texto>
+		<suma>7</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>214</idPreg>
+		<texto>Distribuir la correspondencia</texto>
+		<suma></suma>
+		<resta>9|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>215</idPreg>
+		<texto>Recolectar la basura</texto>
+		<suma>10</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>216</idPreg>
+		<texto>Clasificar la correspondencia en una oficina postal</texto>
+		<suma>9</suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>217</idPreg>
+		<texto>Dibujar los diseños de nuevas ceramicas</texto>
+		<suma>5</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>218</idPreg>
+		<texto>Supervisar a los trabajadores que fabrican cerámicas</texto>
+		<suma>4</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>219</idPreg>
+		<texto>Idear métodos mejores para fabricar cerámicas</texto>
+		<suma></suma>
+		<resta>5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>220</idPreg>
+		<texto>Sumar las adiciones de  los clientes en un café</texto>
+		<suma>9|2</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>221</idPreg>
+		<texto>Enseñar aeromodelismo a los niños</texto>
+		<suma>1</suma>
+		<resta>9|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>222</idPreg>
+		<texto>Llevar los registros de un científico</texto>
+		<suma>9|3</suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>223</idPreg>
+		<texto>Dirigir un campo de deportes para niños pobres</texto>
+		<suma>8</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>224</idPreg>
+		<texto>Ser cocinero en un restaurant</texto>
+		<suma>4</suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>225</idPreg>
+		<texto>Vender medicamentos a los médicos</texto>
+		<suma>4|3</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>226</idPreg>
+		<texto>Armar un buen conjunto de herramientas para trabajar madera</texto>
+		<suma>1</suma>
+		<resta>8|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>227</idPreg>
+		<texto>Hacer un álbum con láminas de los cuadros que le gustan</texto>
+		<suma>5</suma>
+		<resta>8|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>228</idPreg>
+		<texto>Armar un botiquín de primeros auxilios</texto>
+		<suma></suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>229</idPreg>
+		<texto>Ver quien puede contar la mentira más grande en una  fiesta</texto>
+		<suma></suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>230</idPreg>
+		<texto>Ver quien puede contar el mejor chiste en una fiesta</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>231</idPreg>
+		<texto>Representar dichos famosos en una fiesta</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>232</idPreg>
+		<texto>Estar a cargo de la obra que representaran en su colegio</texto>
+		<suma>4</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>233</idPreg>
+		<texto>Hacer imprimir los programas y las entradas para la obra</texto>
+		<suma>9</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>234</idPreg>
+		<texto>Escribir la obra</texto>
+		<suma>6</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>235</idPreg>
+		<texto>Jugar con alguien que generalmente le gana</texto>
+		<suma>10</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>236</idPreg>
+		<texto>Jugar con alguien que casi nunca le gana</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>237</idPreg>
+		<texto>Jugar con alguien que tiene mas o menos la misma habilidad</texto>
+		<suma></suma>
+		<resta>4|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>238</idPreg>
+		<texto>Preparar y despachar por correo la publicidad de un computador</texto>
+		<suma>9</suma>
+		<resta>4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>239</idPreg>
+		<texto>Calcular cuánto cuesta producir un computador</texto>
+		<suma>2</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>240</idPreg>
+		<texto>Vender computadores</texto>
+		<suma>4</suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>241</idPreg>
+		<texto>Ayudar a un niño con su lección de ortografía</texto>
+		<suma>9</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>242</idPreg>
+		<texto>Ayudar a un niño con sus problemas de aritmética</texto>
+		<suma>2</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>243</idPreg>
+		<texto>Ayudar a un niño a mejorar la letra</texto>
+		<suma>9</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>244</idPreg>
+		<texto>Cosechar cerezas </texto>
+		<suma>0</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>245</idPreg>
+		<texto>Manejar un tractor en un establecimiento agrícola</texto>
+		<suma>1</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>246</idPreg>
+		<texto>Trabajar en un laboratorio químico</texto>
+		<suma>3</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>247</idPreg>
+		<texto>Seguir un curso de oratoria</texto>
+		<suma>4</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>248</idPreg>
+		<texto>Seguir un curso sobre comportamiento humano</texto>
+		<suma></suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>249</idPreg>
+		<texto>Seguir un curso sobre cómo escribir cuentos</texto>
+		<suma>6</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>250</idPreg>
+		<texto>Leer sobre investigaciones médicas</texto>
+		<suma>3</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>251</idPreg>
+		<texto>Leer sobre métodos para la cría de ganado</texto>
+		<suma>0</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>252</idPreg>
+		<texto>Leer sobre los progresos en las técnicas de edificación</texto>
+		<suma>1</suma>
+		<resta>3|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>253</idPreg>
+		<texto> Usar una máquina de sumar</texto>
+		<suma>9</suma>
+		<resta>4|1|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>254</idPreg>
+		<texto>Amar máquinas de sumar</texto>
+		<suma>1</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>255</idPreg>
+		<texto>Vender máquinas de sumar</texto>
+		<suma>4</suma>
+		<resta>9|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>256</idPreg>
+		<texto>Dibujar las ilustraciones para una revista de cuentos</texto>
+		<suma>5</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>257</idPreg>
+		<texto>Criar ganado vacuno</texto>
+		<suma>0</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>258</idPreg>
+		<texto>Cultivar fruta para el mercado</texto>
+		<suma>0</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>259</idPreg>
+		<texto>Ser el mejor vendededor de seguros del país</texto>
+		<suma>4</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>260</idPreg>
+		<texto>Ser un experto tenedor de libros</texto>
+		<suma>2</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>261</idPreg>
+		<texto>Ser un experto en impuestos</texto>
+		<suma>2</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>262</idPreg>
+		<texto>Arreglar una conexión rota de una plancha eléctrica</texto>
+		<suma></suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>263</idPreg>
+		<texto>Encender el fuego de la chimenea</texto>
+		<suma>1</suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>264</idPreg>
+		<texto>Mecanografiar una carta para un amigo enfermo</texto>
+		<suma>9|8</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>265</idPreg>
+		<texto>Manejar una casa de música</texto>
+		<suma>7</suma>
+		<resta>8|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>266</idPreg>
+		<texto>Dibujar planos para edificios</texto>
+		<suma>5</suma>
+		<resta>7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>267</idPreg>
+		<texto>Hacer estudios sobre como mantener felices a los ancianos</texto>
+		<suma>8</suma>
+		<resta>7|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>268</idPreg>
+		<texto>Desarmar un juguete mecánico para ver como funciona</texto>
+		<suma>1</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>269</idPreg>
+		<texto>Jugar a las damas</texto>
+		<suma>9</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>270</idPreg>
+		<texto>Jugar al ajedrez</texto>
+		<suma>9</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>271</idPreg>
+		<texto>Recorrer la ciudad en un grupo grande</texto>
+		<suma>9</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>272</idPreg>
+		<texto>Pasear solo por la ciudad a ver cosas</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>273</idPreg>
+		<texto>Recorrer la ciudad con un amigo que la conoce bien</texto>
+		<suma>9</suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>274</idPreg>
+		<texto>Ser tesorero de un club</texto>
+		<suma>2</suma>
+		<resta>8|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>275</idPreg>
+		<texto>Cultivar nuevos tipos de flores</texto>
+		<suma>0</suma>
+		<resta>8|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>276</idPreg>
+		<texto>Hablar con la gente sobre sus problemas</texto>
+		<suma>8</suma>
+		<resta>2|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>277</idPreg>
+		<texto>Trabajar visitando gente pobre para visitarla</texto>
+		<suma>8</suma>
+		<resta>9|6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>278</idPreg>
+		<texto>Manejar los compromisos sociales de una persona famosa</texto>
+		<suma>9|4</suma>
+		<resta>8|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>279</idPreg>
+		<texto>Preparar los avisos para una editorial de libros</texto>
+		<suma>4</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>280</idPreg>
+		<texto>Escribir un cuento para una revista</texto>
+		<suma>6</suma>
+		<resta>8|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>281</idPreg>
+		<texto>Escribir un articulo sobre cómo criar gallinas</texto>
+		<suma>0</suma>
+		<resta>8|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>282</idPreg>
+		<texto>Escribir un articulo sobre métodos de primeros auxilios</texto>
+		<suma>8</suma>
+		<resta>6|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>283</idPreg>
+		<texto>Atender a la gente en un restaurante</texto>
+		<suma>4</suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>284</idPreg>
+		<texto>Buscar las direcciones de personas en la guía telefónica</texto>
+		<suma>9</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>285</idPreg>
+		<texto>Cuidar ancianos</texto>
+		<suma>8</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>286</idPreg>
+		<texto>Modelar objetos de arcilla</texto>
+		<suma>5</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>287</idPreg>
+		<texto>Dar una charla sobre las vacunas que prefiere</texto>
+		<suma>6</suma>
+		<resta>5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>288</idPreg>
+		<texto>Tomar parte en la representación teatral de su club</texto>
+		<suma>6|4</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>289</idPreg>
+		<texto>Escribir cartas sobre un campamento de verano</texto>
+		<suma></suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>290</idPreg>
+		<texto>Informarse sobre costos de administración del campamento</texto>
+		<suma>2</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>291</idPreg>
+		<texto>Mantener el equipo del campamento en buenas condiciones</texto>
+		<suma>1</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>292</idPreg>
+		<texto>Buscar los errores en un informe</texto>
+		<suma>9|6</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>293</idPreg>
+		<texto>Lavar Platos</texto>
+		<suma>10</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>294</idPreg>
+		<texto>Cocinar una comida</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>295</idPreg>
+		<texto>Enseñar a la gente cómo diseñar y construir casas</texto>
+		<suma>5|4</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>296</idPreg>
+		<texto>Obtener órdenes para avisos en una revista</texto>
+		<suma>9|4</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>297</idPreg>
+		<texto>Arreglar relojes</texto>
+		<suma>1</suma>
+		<resta>9|5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>298</idPreg>
+		<texto>Ser considerado una persona difícil de tratar</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>299</idPreg>
+		<texto>Ser considerado una persona imparcial</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>300</idPreg>
+		<texto>Ser considerado una persona inteligente</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>301</idPreg>
+		<texto>Viajar para encontrar animales raros</texto>
+		<suma>3</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>302</idPreg>
+		<texto>Viajar para combatir enfermedades de los nativos</texto>
+		<suma>8|3</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>303</idPreg>
+		<texto>Trabajar ayudando a gente muy pobre</texto>
+		<suma>8</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>304</idPreg>
+		<texto>Estudiar métodos de cálculo rápido</texto>
+		<suma>2</suma>
+		<resta>0|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>305</idPreg>
+		<texto>Estudiar métodos para arreglar cultivos</texto>
+		<suma>1</suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>306</idPreg>
+		<texto>Estudiar como escribir mejores cartas comerciales</texto>
+		<suma>9</suma>
+		<resta>2|0|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>307</idPreg>
+		<texto>Tener muchos amigos y poco dinero</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>308</idPreg>
+		<texto>Tener pocos amigos y mucho dinero</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>309</idPreg>
+		<texto>Tener muchos amigos y mucho dinero</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>310</idPreg>
+		<texto>Ayudar a familias pobres a planear el uso del dinero</texto>
+		<suma>8</suma>
+		<resta>9|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>311</idPreg>
+		<texto>Pegar etiquetas en los libros de una biblioteca</texto>
+		<suma>9</suma>
+		<resta>8|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>312</idPreg>
+		<texto>Ser experto en el cuidado de los árboles</texto>
+		<suma>0</suma>
+		<resta>9|8|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>313</idPreg>
+		<texto>Dibujar planos de puentes</texto>
+		<suma>1</suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>314</idPreg>
+		<texto>Un trabajo que requiera muchos cálculos mentales</texto>
+		<suma>2</suma>
+		<resta>9|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>315</idPreg>
+		<texto>Mecanografiar y llevar el archivo en una oficina</texto>
+		<suma>9</suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>316</idPreg>
+		<texto>Enseñar operaciones bancarias en la universidad</texto>
+		<suma>4|2</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>317</idPreg>
+		<texto>Reunir fondos para la universidad</texto>
+		<suma>4</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>318</idPreg>
+		<texto>Enseñar un idioma en la universidad</texto>
+		<suma></suma>
+		<resta>4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>319</idPreg>
+		<texto>Seguir un curso sobre correspondencia comercial</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>320</idPreg>
+		<texto>Seguir un curso sobre tipografía</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>321</idPreg>
+		<texto>Seguir un curso sobre métodos de venta</texto>
+		<suma>4</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>322</idPreg>
+		<texto>Dibujar planos de casas</texto>
+		<suma>5</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>323</idPreg>
+		<texto>Relatar avisos que ofrezcan casas nuevas</texto>
+		<suma>6|4</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>324</idPreg>
+		<texto>Escribir artículos sobre hogares modernos</texto>
+		<suma>6</suma>
+		<resta>5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>325</idPreg>
+		<texto>Leer sobre obras teatrales antiguas</texto>
+		<suma>6</suma>
+		<resta>7|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>326</idPreg>
+		<texto>Leer sobre música antigua</texto>
+		<suma>7</suma>
+		<resta>6|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>327</idPreg>
+		<texto>Leer estudios sobre como influyen las palabras</texto>
+		<suma>3</suma>
+		<resta>7|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>328</idPreg>
+		<texto>Enseñar a niños no muy brillantes</texto>
+		<suma>8</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>329</idPreg>
+		<texto>Enseñar a niños promedio</texto>
+		<suma></suma>
+		<resta>4|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>330</idPreg>
+		<texto>Enseñar a niños brillantes</texto>
+		<suma></suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>331</idPreg>
+		<texto>Ayudar a jóvenes a elegir trabajo</texto>
+		<suma>8</suma>
+		<resta>5|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>332</idPreg>
+		<texto>Dibujar nuevos diseños para telas</texto>
+		<suma>5</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>333</idPreg>
+		<texto>Presupuestar para clientes la impresión de libros</texto>
+		<suma>2</suma>
+		<resta>8|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>334</idPreg>
+		<texto>Fabricar tarjetas de presentación</texto>
+		<suma>4</suma>
+		<resta>5|4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>335</idPreg>
+		<texto>Decidir los precios de las tarjetas</texto>
+		<suma>4|2</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>336</idPreg>
+		<texto>Diseñar tarjetas de presentación</texto>
+		<suma>5</suma>
+		<resta>4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>337</idPreg>
+		<texto>Ser el mejor alumno de aritmética de la clase</texto>
+		<suma>2</suma>
+		<resta>8|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>338</idPreg>
+		<texto>Ser el alumno más servicial de la clase</texto>
+		<suma>8</suma>
+		<resta>3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>339</idPreg>
+		<texto>Ser el mejor alumno de ciencias de la clase</texto>
+		<suma>3</suma>
+		<resta>8|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>340</idPreg>
+		<texto>Que los demás le traten como un igual</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>341</idPreg>
+		<texto>Que los demás le traten como si fuesen mejores</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>342</idPreg>
+		<texto>Que los demás no le presten atención</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>343</idPreg>
+		<texto>Estudiar el comportamiento humano</texto>
+		<suma></suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>344</idPreg>
+		<texto>Encargarse de construir puentes</texto>
+		<suma>1</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>345</idPreg>
+		<texto>Proyectar jardines y paisajes</texto>
+		<suma>5|0</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>346</idPreg>
+		<texto>Ordenar de nuevo los libros en una biblioteca</texto>
+		<suma>9</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>347</idPreg>
+		<texto>Componer música</texto>
+		<suma></suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>348</idPreg>
+		<texto>Ayudar a la mejoría de los enfermos mentales</texto>
+		<suma>8</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>349</idPreg>
+		<texto>Escribir sobre economía para un periódico</texto>
+		<suma>6|2</suma>
+		<resta>4|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>350</idPreg>
+		<texto>Manejar un gran establecimiento agrícola</texto>
+		<suma>0</suma>
+		<resta>6|4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>351</idPreg>
+		<texto>Vender casas y terrenos</texto>
+		<suma>4</suma>
+		<resta>6|2|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>352</idPreg>
+		<texto>Cuidar a sordos</texto>
+		<suma>8</suma>
+		<resta>9|4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>353</idPreg>
+		<texto>Trazar gráficos de la evolución de los precios</texto>
+		<suma>2</suma>
+		<resta>8|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>354</idPreg>
+		<texto>Atender al público en una tienda</texto>
+		<suma>4|2</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>355</idPreg>
+		<texto>Escribir libros</texto>
+		<suma>6</suma>
+		<resta>8|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>356</idPreg>
+		<texto>Ser autoridad en publicidad en la vía pública</texto>
+		<suma>4</suma>
+		<resta>8|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>357</idPreg>
+		<texto>Ser un dignatario de la iglesia</texto>
+		<suma>8|4</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>358</idPreg>
+		<texto>Trabajar en lo que te gusta con un sueldo alto</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>359</idPreg>
+		<texto>Trabajar en lo que te gusta con un sueldo bajo</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>360</idPreg>
+		<texto>Trabajar en lo que no le gusta con un sueldo alto</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>361</idPreg>
+		<texto>Enseñar a la gente pobre a mantenerse sano</texto>
+		<suma>8</suma>
+		<resta>6|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>362</idPreg>
+		<texto>Escribir para una revista</texto>
+		<suma>6</suma>
+		<resta>8|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>363</idPreg>
+		<texto>Comprar y vender pinturas famosas</texto>
+		<suma>5</suma>
+		<resta>8|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>364</idPreg>
+		<texto>Jugar a algo que exija cálculos mentales</texto>
+		<suma>2</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>365</idPreg>
+		<texto>Jugar a las damas</texto>
+		<suma></suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>366</idPreg>
+		<texto>Operar rompecabezas mecánicos</texto>
+		<suma>1</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>367</idPreg>
+		<texto>Escribir una obra de teatro</texto>
+		<suma>6</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>368</idPreg>
+		<texto>Encargarse de vender las entradas para la obra</texto>
+		<suma>9|4</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>369</idPreg>
+		<texto>Dirigir la obra</texto>
+		<suma></suma>
+		<resta>9|6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>370</idPreg>
+		<texto>Escribir artículos sobre pasatiempos</texto>
+		<suma>9</suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>371</idPreg>
+		<texto>Hacer tablas con cifras sobre el costo de la vida</texto>
+		<suma>2|10</suma>
+		<resta>6|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>372</idPreg>
+		<texto>Reparar y barnizar muebles nuevos</texto>
+		<suma>1</suma>
+		<resta>6|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>373</idPreg>
+		<texto>Seguir un curso sobre teneduría de libros</texto>
+		<suma>2</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>374</idPreg>
+		<texto>seguir un curso sobre ventas</texto>
+		<suma>4</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>375</idPreg>
+		<texto>Seguir un curso sobre vocabulario comercial</texto>
+		<suma></suma>
+		<resta>4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>376</idPreg>
+		<texto>Hacer experimentos con electricidad</texto>
+		<suma>3</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>377</idPreg>
+		<texto>Manejar una máquina de imprimir</texto>
+		<suma></suma>
+		<resta>3|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>378</idPreg>
+		<texto>Criar perros de raza</texto>
+		<suma>0</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>379</idPreg>
+		<texto>Que la gente le moleste con sus bromas</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>380</idPreg>
+		<texto>Que la gente le tema</texto>
+		<suma></suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>381</idPreg>
+		<texto>Que la gente le cuente sus problemas</texto>
+		<suma>8</suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>382</idPreg>
+		<texto>Dibujar historietas para los periódicos</texto>
+		<suma>5</suma>
+		<resta>4|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>383</idPreg>
+		<texto>Escribir publicidad para lavarropas</texto>
+		<suma></suma>
+		<resta>5|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>384</idPreg>
+		<texto>Cultivar verduras en una pequeña granja</texto>
+		<suma>0</suma>
+		<resta>5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>385</idPreg>
+		<texto>Memorizar un discurso</texto>
+		<suma>6|4</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>386</idPreg>
+		<texto>Memorizar un poema</texto>
+		<suma>6</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>387</idPreg>
+		<texto>Memorizar las fechas históricas importantes</texto>
+		<suma></suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>388</idPreg>
+		<texto>Enseñar aritmética </texto>
+		<suma>2</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>389</idPreg>
+		<texto>Adiestar perros lazarillos</texto>
+		<suma>8</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>390</idPreg>
+		<texto>Escribir cartas para un científico famoso</texto>
+		<suma></suma>
+		<resta>8|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>391</idPreg>
+		<texto>Arreglar automóviles</texto>
+		<suma>1</suma>
+		<resta>5|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>392</idPreg>
+		<texto>Diseñar edificios</texto>
+		<suma>5</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>393</idPreg>
+		<texto>Investigar sobre los viajes espaciales</texto>
+		<suma>3</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>394</idPreg>
+		<texto>Comprar provisiones para una comida</texto>
+		<suma></suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>395</idPreg>
+		<texto>Reparar un juguete roto</texto>
+		<suma>1</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>396</idPreg>
+		<texto>Lavarle el pelo a un amigo</texto>
+		<suma></suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>397</idPreg>
+		<texto>Prestar primeros auxilios en un hospital</texto>
+		<suma>8</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>398</idPreg>
+		<texto>Atender al público en una florería</texto>
+		<suma>9</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>399</idPreg>
+		<texto>Escribir direcciones en los sobres</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>400</idPreg>
+		<texto>Pintar retratos de gente famosa</texto>
+		<suma>10</suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>401</idPreg>
+		<texto>Hacer caricaturas de gente famosa</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>402</idPreg>
+		<texto>Pintar cuadros con hermosos paisajes</texto>
+		<suma>0</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>403</idPreg>
+		<texto>Hacer dibujos para revistas</texto>
+		<suma>5</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>404</idPreg>
+		<texto>Escribir cuentos para revistas</texto>
+		<suma>6</suma>
+		<resta>5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>405</idPreg>
+		<texto>Encargarse de vender una revista</texto>
+		<suma>4</suma>
+		<resta>5|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>406</idPreg>
+		<texto>Responder correspondencia comercial</texto>
+		<suma>9|6</suma>
+		<resta>5|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>407</idPreg>
+		<texto>Enseñara a los niños a dibujar y pintar</texto>
+		<suma>8|5</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>408</idPreg>
+		<texto>Escribir para una revista de arte</texto>
+		<suma>5|6</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>409</idPreg>
+		<texto>Vender seguros de vida</texto>
+		<suma>4</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>410</idPreg>
+		<texto>Escribir cuentos para revistas</texto>
+		<suma>6</suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>411</idPreg>
+		<texto>Fichar los libros de una biblioteca</texto>
+		<suma>9</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>412</idPreg>
+		<texto>Elegir su propia ropa</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>413</idPreg>
+		<texto>Que lo aconsejen cuando elige ropa</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>414</idPreg>
+		<texto>Hacer que alguien le elija ropa</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>415</idPreg>
+		<texto>Seguir un curso de educación física</texto>
+		<suma></suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>416</idPreg>
+		<texto>Seguir un curso para vendedores</texto>
+		<suma>1</suma>
+		<resta>2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>417</idPreg>
+		<texto>Seguir un curso de matemáticas</texto>
+		<suma>2</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>418</idPreg>
+		<texto>Realizar los quehaceres domésticos</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>419</idPreg>
+		<texto>Atender una ventanilla de informes</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>420</idPreg>
+		<texto>Vender revistas</texto>
+		<suma>4</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>421</idPreg>
+		<texto>Repartir cartas del campamento</texto>
+		<suma>9</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>422</idPreg>
+		<texto>Dirigir la banda del campamento</texto>
+		<suma></suma>
+		<resta>9|7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>423</idPreg>
+		<texto>Prestar allí los primeros auxilios</texto>
+		<suma>8</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>424</idPreg>
+		<texto>Vender de puerta en puerta</texto>
+		<suma></suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>425</idPreg>
+		<texto>Vender por correo</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>426</idPreg>
+		<texto>Atender al público en una tienda</texto>
+		<suma></suma>
+		<resta>9|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>427</idPreg>
+		<texto>Ser presidente de un club</texto>
+		<suma>6|4</suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>428</idPreg>
+		<texto>Ser tesorero del club</texto>
+		<suma>9|2</suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>429</idPreg>
+		<texto>Ser secretario del club</texto>
+		<suma>9|6</suma>
+		<resta>4|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>430</idPreg>
+		<texto>Escribir poemas</texto>
+		<suma></suma>
+		<resta>8|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>431</idPreg>
+		<texto>Pintar cuadros</texto>
+		<suma>5</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>432</idPreg>
+		<texto>Trabajar como asistente social</texto>
+		<suma>8</suma>
+		<resta>5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>433</idPreg>
+		<texto>Ser guía de excursiones</texto>
+		<suma>0</suma>
+		<resta>9|5|4|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>434</idPreg>
+		<texto>Diseñar equipo para campamento</texto>
+		<suma>5</suma>
+		<resta>9|4|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>435</idPreg>
+		<texto>Vender equipo para campamento</texto>
+		<suma>9|4</suma>
+		<resta>5|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>436</idPreg>
+		<texto>Competir en mecanografía</texto>
+		<suma>9</suma>
+		<resta>7|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>437</idPreg>
+		<texto>Competir en canto</texto>
+		<suma>7</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>438</idPreg>
+		<texto>Competir en oratoria</texto>
+		<suma>6|4</suma>
+		<resta>9|7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>439</idPreg>
+		<texto>Estudiar solo</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>440</idPreg>
+		<texto>Estudiar donde otros estudian</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>441</idPreg>
+		<texto>Estudiar donde otros conversan</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>442</idPreg>
+		<texto>Vender en una tienda</texto>
+		<suma>9|4</suma>
+		<resta>6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>443</idPreg>
+		<texto>Trabajar en un sello discográfico</texto>
+		<suma></suma>
+		<resta>6|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>444</idPreg>
+		<texto>Trabajar para un editor de libros</texto>
+		<suma>6</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>445</idPreg>
+		<texto>Pintar retratos de personas</texto>
+		<suma>5</suma>
+		<resta>3|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>446</idPreg>
+		<texto>Investigar los terremotos</texto>
+		<suma>3</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>447</idPreg>
+		<texto>Construir puentes</texto>
+		<suma>1</suma>
+		<resta>5|3</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>448</idPreg>
+		<texto>Enseñar en un jardin de infantes</texto>
+		<suma>8</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>449</idPreg>
+		<texto>Supervisar en un campo de deportes</texto>
+		<suma>8</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>450</idPreg>
+		<texto>Vender juguetes</texto>
+		<suma>4</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>451</idPreg>
+		<texto>Componer una tabla de planchar</texto>
+		<suma>1</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>452</idPreg>
+		<texto>Lavar Platos</texto>
+		<suma>9|10</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>453</idPreg>
+		<texto>Ordenar una habitación</texto>
+		<suma>9</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>454</idPreg>
+		<texto>Enseñar a fabricar muebles</texto>
+		<suma>1</suma>
+		<resta>9|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>455</idPreg>
+		<texto>Ser corredor en un periódico</texto>
+		<suma>9</suma>
+		<resta>2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>456</idPreg>
+		<texto>Enseñar aritmética</texto>
+		<suma>2</suma>
+		<resta>9|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>457</idPreg>
+		<texto>Decorar vidrierias</texto>
+		<suma>5</suma>
+		<resta>9|2|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>458</idPreg>
+		<texto>Reparar máquinas de oficina</texto>
+		<suma>9|1</suma>
+		<resta>9|5|2</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>459</idPreg>
+		<texto>Extender facturas en una tienda</texto>
+		<suma>9|2</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>460</idPreg>
+		<texto>Ser telefonista</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>461</idPreg>
+		<texto>Vender cepillos</texto>
+		<suma>4</suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>462</idPreg>
+		<texto>Enseñar juegos a niños</texto>
+		<suma></suma>
+		<resta>9|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>463</idPreg>
+		<texto>Tocar en una orquesta</texto>
+		<suma>7</suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>464</idPreg>
+		<texto>Trabajar en una oficina</texto>
+		<suma>9</suma>
+		<resta>7|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>465</idPreg>
+		<texto>Cuidar ancianos</texto>
+		<suma>8</suma>
+		<resta>9|7|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>466</idPreg>
+		<texto>Visitar a un amigo enfermo</texto>
+		<suma>8</suma>
+		<resta>1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>467</idPreg>
+		<texto>Enseñar pruebas a un perro</texto>
+		<suma></suma>
+		<resta>8|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>468</idPreg>
+		<texto>Componer un juguete roto</texto>
+		<suma>1</suma>
+		<resta>8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>469</idPreg>
+		<texto>Construir botes</texto>
+		<suma>1</suma>
+		<resta>7|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>470</idPreg>
+		<texto>Solucionar huelgas</texto>
+		<suma></suma>
+		<resta>7|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>471</idPreg>
+		<texto>Compener música</texto>
+		<suma>7</suma>
+		<resta>8|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>472</idPreg>
+		<texto>Tener muchos amigos</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>473</idPreg>
+		<texto>Tener buena salud</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>474</idPreg>
+		<texto>Tener alta posición social</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>475</idPreg>
+		<texto>Vender veduras</texto>
+		<suma>4</suma>
+		<resta>7|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>476</idPreg>
+		<texto>Tocar el órgano</texto>
+		<suma>7</suma>
+		<resta>4|0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>477</idPreg>
+		<texto>Cultivar verduras </texto>
+		<suma>0</suma>
+		<resta>7|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>478</idPreg>
+		<texto>Trabajar en un escritorio</texto>
+		<suma>9</suma>
+		<resta>4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>479</idPreg>
+		<texto>Trabajar en el campo</texto>
+		<suma></suma>
+		<resta>9|4|10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>480</idPreg>
+		<texto>Vender de casa en casa</texto>
+		<suma>4|10</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>481</idPreg>
+		<texto>Fabricar caramelos</texto>
+		<suma></suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>482</idPreg>
+		<texto>Criar gallinas </texto>
+		<suma>0</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>483</idPreg>
+		<texto>Hacer exámenes oculares</texto>
+		<suma></suma>
+		<resta>0</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>484</idPreg>
+		<texto>Mecanografiar y archivar</texto>
+		<suma>9</suma>
+		<resta>5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>485</idPreg>
+		<texto>Enseñar gramática</texto>
+		<suma>6</suma>
+		<resta>9|5|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>486</idPreg>
+		<texto>Vender materiales de pinturas</texto>
+		<suma>5|4</suma>
+		<resta>9|6</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>487</idPreg>
+		<texto>Ver un partido de tenis</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>488</idPreg>
+		<texto>Ver una película cómica</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>489</idPreg>
+		<texto>Ver un torneo de lucha</texto>
+		<suma></suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>490</idPreg>
+		<texto>Acompañar a enfermos</texto>
+		<suma>8</suma>
+		<resta>7|4|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>491</idPreg>
+		<texto>Vender artículos musicales</texto>
+		<suma>7|4</suma>
+		<resta>8|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>492</idPreg>
+		<texto>Arreglar una lavadora de ropas</texto>
+		<suma>1</suma>
+		<resta>7|8|4</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>493</idPreg>
+		<texto>Hacer comedores  para aves</texto>
+		<suma>1</suma>
+		<resta>9|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>494</idPreg>
+		<texto>Vigilar que estén llenos</texto>
+		<suma>9</suma>
+		<resta>5|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>495</idPreg>
+		<texto>Hacer dibujos de pájaros</texto>
+		<suma>5</suma>
+		<resta>9|1</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>496</idPreg>
+		<texto>Fundar un periódico</texto>
+		<suma>9</suma>
+		<resta>7|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>497</idPreg>
+		<texto>Abrir una escuela de arte</texto>
+		<suma>5</suma>
+		<resta>9|7</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>498</idPreg>
+		<texto>Formar una orquesta</texto>
+		<suma>7</suma>
+		<resta>9|5</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>499</idPreg>
+		<texto>Tener amigos</texto>
+		<suma></suma>
+		<resta>10</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>500</idPreg>
+		<texto>Tener poder</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>501</idPreg>
+		<texto>Tener fama</texto>
+		<suma>10</suma>
+		<resta></resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>502</idPreg>
+		<texto>Forrar libros</texto>
+		<suma></suma>
+		<resta>9|8</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>503</idPreg>
+		<texto>Cuidar a niños enfermos</texto>
+		<suma>8</suma>
+		<resta>9</resta>
+	</pregunta>
+	<pregunta>
+		<idPreg>504</idPreg>
+		<texto>Transcribir un informe</texto>
+		<suma>9</suma>
+		<resta>8</resta>
+	</pregunta>
+</test>
