@@ -198,3 +198,28 @@ html, body, #wrapperHome, #wrapper {
 	width: 15px;
 	height: 14px;
 }
+#accordion{
+	float: left;
+}
+
+.linkContacto, .linkContacto:visited{
+	color: #03030F;	
+	text-decoration: none;
+}
+.linkContacto:hover{
+	color: #0F0F03;	
+}
+#testOnline{
+	background: url('images/b_test.png');
+	width: 83px;
+	height: 30px;
+	float: right;
+}
+#testOnline a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#testOnline:hover{
+	background: url('images/b_test_onhover.png');
+}
