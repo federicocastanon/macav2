@@ -10,7 +10,12 @@
 	<body>
 		<script>
 			$(function() {
-				$("#accordion").accordion();
+				$("#accordion").accordion(
+					{
+						collapsible: true,
+						heightStyle: "content"
+					}
+				);
 			});
 		</script>
 		<div id="wrapper">
@@ -20,10 +25,10 @@
 					<div id="inicio">
 						<a href="home.html"></a>
 					</div>
-					<div id="terapia" class="seleccionado">
+					<div id="terapia" >
 						<a href="terapia.html"></a>
 					</div>
-					<div id="orientacion">
+					<div id="orientacion" class="seleccionado">
 						<a href="orientacion.html"></a>
 					</div>
 					<div id="contacto">

@@ -32,7 +32,7 @@
 				</p>
 				<h2 id="aclaracion">Todos los campos son obligatorios</h2>
 				<form class="formContacto" name="formu" id="formu" action="index.php?unirse=1&amp;ubi=0&amp;sububi=7" method="post" enctype="multipart/form-data">
-					<div class="mitad">
+					<div>
 						<div class="campoForm">
 							<label for="nombre" class="requerido">Nombre</label>
 							<input id="nombre" type="text" tabindex="1">
@@ -41,21 +41,21 @@
 							<label for="mail" class="requerido">Mail</label>
 							<input id="mail" type="email" tabindex="2">
 						</div>
-						<div class="botones">
-							<input type="button" value="Enviar" id="manda" name="manda" onclick="javascript:validar();">
-						</div>
-					</div>
-					<div class="mitad">
+						
+
 						<div class="campoForm">
 							<label for="organizacion" class="requerido">Cómo llegaste a ésta página</label>
-							<input id="organizacion" type="text" tabindex="3" style="width: 100%;">
+							<input id="comoll" type="text" tabindex="3" >
 						</div>
 						<div class="campoForm ">
 							<p class="requerido">
 								Consultas
 							</p>
 							<textarea id="consulta" class="campoFormTextArea" name="consulta" 
-							cols="50" rows="3" tabindex="4" ></textarea>
+							cols="50" rows="3" tabindex="4" ></textarea>							
+						</div>
+						<div class="botones">
+							<input type="button" value="Enviar" id="manda" name="manda" onclick="javascript:validar();">
 						</div>
 					</div>
 

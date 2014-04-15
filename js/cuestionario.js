@@ -117,7 +117,7 @@ var pre = preguntas[numeroPregunta];
 				function(data){
 					$("#sendEmail").slideUp("normal", function() {				   
 						if(data == 'enviado'){
-                                                      $("#sendEmail").before('<h1>Muchas Gracias!</h1><p>Su cuestionario fue enviado a la Licenciada Macarena Martín.</p>');
+                                                      $("#sendEmail").before('<h1>¡Muchas Gracias!</h1><p>Su cuestionario fue enviado a la Licenciada Macarena Martín.</p>');
                                                    
                                                 }else{
 						       $("#sendEmail").before('<h1>Atención!</h1><p>Ocurrió un error y su cuestionario no fue enviado! Por favor copie este mensaje completo y envielo a macarena.martin@outlook.com</p><p>' + html + '</p>');																						

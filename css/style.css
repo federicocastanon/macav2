@@ -25,11 +25,12 @@
 	float: right;
 }
 .seleccionado {
-	border-bottom: solid 3px #0000FF;
+	border-bottom: solid 3px #662d8f;
 }
 #header div a {
 	display: block;
 	height: 24px;
+	transition: background 0.5s linear;
 }
 #inicio, #terapia, #orientacion, #contacto {
 	float: left;
@@ -89,25 +90,29 @@
 	background: url('images/logoheader_onhover.png');
 }
 html, body, #wrapperHome, #wrapper {
-	height: 100%;
-	width: 100%;
+	height: 100%;	
+	margin: 0;
 }
 #wrapperHome {
-	background: url('images/fondo1.jpg');
+	background: url('images/fondo2.jpg');
 	background-size: cover;
+	width: 100%;
+	transition: background 0.5s linear;
 }
 #cuerpoHome {
 	min-width: 960px;
 	width: 80%;
+	height:100%;
 	margin: auto;
 }
 #cuerpo {
 	padding-top: 100px;
-	padding-left: 320px;
+	padding-left: 350px;
+	padding-right: 20px;
 	background: url('images/lateral.png') left no-repeat;
 	min-height: 500px;
 	height: 80%;
-	font-family: acLight;
+	font-family: roboto;
 	font-size: big;
 	color: #666666;
 }
@@ -118,14 +123,32 @@ html, body, #wrapperHome, #wrapper {
 	margin-bottom: 30px;
 	font-size: 32px;
 }
-#imgPrincipal {
+#wrapperImagen {
+	width:  576px;
+	height:  578px;
 	margin: auto;
+	margin-top: 15%;
+	border: 0;
 }
-
+#imgPrincipal{
+	
+	width:  576px;
+	height:  578px;
+	background-image: url('images/home.png');
+	outline: none;
+	border:none;
+}
+#imgPrincipal:hover{
+	background-image: url('images/home_onhover.png');
+}
+#imgPrincipal:hover + #wrapperHome{
+	background: url('images/fondo1.jpg');
+}
 #aclaracion {
-	color: blue;
+	color: #662D8F;
 	font-size: 10px;
-	margin-top: 40px;
+	margin-top: -10px;
+	margin-bottom: 30px;
 }
 .mitad {
 	width: 45%;
@@ -143,39 +166,43 @@ html, body, #wrapperHome, #wrapper {
 	max-width: 700px;
 	margin-top: 20px;
 	min-height: 300px;
+	position: relative;
 }
-.campoForm {
-	margin-top: 30px;
-	margin-bottom: 30px;
+.campoForm{
+	margin: 1% 2% 4% 0;
+	width: 300px;	
+	font-family: roboto;
+	color: #a3a3a3;
 }
-.requerido {
-	font-family: acLight;
+.campoform label{
+	width: 185px;;
+	float: right;
 }
-.campoForm input {
-	border: 0;
-	border-bottom: 1px solid #666666;
+.requerido{
+	text-align: right;
 }
-.campoForm input:focus {
-	border: 0;
-	border-bottom: 1px solid #666666;
-}
-.campoForm textarea {
-	border: 0;
-	border-bottom: 1px solid #666666;
-	border-right: 1px solid #666666;
-}
-.campoForm textarea:focus {
-	border: 0;
-	border-bottom: 1px solid #666666;
-	border-right: 1px solid #666666;
-}
-.requerido:after {
-	content: '    ' url('images/infomas.png');
+
+.requerido:after{
+	content:'    '  url('images/infomas.png');
 	width: 10px;
 	height: 14px;
 }
+.campoForm select{
+	float: right;
+}
+.campoForm input{
+	border: 0;	
+	border-bottom: 1px solid #a3a3a3;
+	float: right;	
+	padding: 0;
+}
+.campoFormTextArea{
+	height: 60px;
+	float: left;
+	border: 1px solid #a3a3a3;	
+}
 #cv {
-	font-family: acLight;
+	font-family: roboto;
 	font-size: 12px;
 	margin-top: 100px;
 }
@@ -183,14 +210,19 @@ html, body, #wrapperHome, #wrapper {
 	font-style: italic;
 }
 #tituloUni {
-	color: blue;
+	color: #662d8f;
 }
 .contenedorPregunta{
 	margin: 40px 0 40px 0;
 }
 .botonera{
 	min-height: 20px;
-	width: 100%;
+	width: 25%;
+}
+.botones{
+	width: 100%;	
+	position: absolute;
+	bottom: 0;
 }
 
 .contenedorPregunta p:before{
@@ -198,10 +230,19 @@ html, body, #wrapperHome, #wrapper {
 	width: 15px;
 	height: 14px;
 }
+#contenedorOpciones{
+	min-height: 284px;
+}
+
 #accordion{
 	float: left;
 }
-
+#accordion h3{
+	cursor: pointer;	
+}
+#accordion div{
+		
+}
 .linkContacto, .linkContacto:visited{
 	color: #03030F;	
 	text-decoration: none;
