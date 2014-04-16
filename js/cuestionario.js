@@ -32,8 +32,14 @@ function cargarTresOpciones(numeroPregunta)
 	{
 		seleccionoNeg = false;
 		seleccionoPos = false;
-		$('[id^="pos"]').addClass('pos').attr("disabled", false);
-		$('[id^="neg"]').addClass('neg').attr("disabled", false);
+		$('.pos').each(function(index) {
+			$(this).removeClass('megustaAnulado').addClass('megusta');
+		});
+		$('.neg').each(function(index) {
+			$(this).removeClass('noMeGustaAnulado').addClass('noMeGusta');
+		});
+		$('[id^="pos"]').removeClass('megustaSelected').addClass('megusta').addClass('pos');
+		$('[id^="neg"]').removeClass('noMeGustaSelected').addClass('noMeGusta').addClass('neg');
 		
 		if(ultimaOpcion >=504){
 			$(".sig").hide();
@@ -66,13 +72,14 @@ var pre = preguntas[numeroPregunta];
 	function pos(n, boton)
 	{		
 		seleccionoPos = true;
-		$('#' + boton.id).removeClass('pos').attr("disabled", true);
+		$('#' + boton.id).removeClass('megusta').removeClass('pos').addClass("megustaSelected");
 		var posASumar=posV[n].split("|");
 		for(var i = 0; i < posASumar.length; i++){
 			puntajes[posASumar[i]]++;		
-		}		
-		$(".pos").hide();
-		$("#neg" + n).hide();
+		}	
+		
+		$(".pos").removeClass('megusta').addClass("megustaAnulado");
+		$("#neg" + n).removeClass('noMeGusta').addClass("noMeGustaAnulado");	
 		if(seleccionoNeg && seleccionoPos){
 			cargarTresOpciones(ultimaOpcion);
 		}
@@ -80,13 +87,13 @@ var pre = preguntas[numeroPregunta];
 	function neg(n, boton)
 	{	
 		seleccionoNeg = true;
-		$('#' + boton.id).removeClass('neg').attr("disabled", true);	
+		$('#' + boton.id).removeClass('noMeGusta').removeClass('neg').addClass("noMeGustaSelected");	
 		var posASumar=negV[n].split("|");
 		for(var i = 0; i < posASumar.length; i++){
 			puntajes[posASumar[i]]++;		
 		}
-		$(".neg").hide();
-		$("#pos" + n).hide();	
+		$(".neg").removeClass('noMeGusta').addClass("noMeGustaAnulado");
+		$("#pos" + n).removeClass('megusta').addClass("megustaAnulado");	
 		if(seleccionoNeg && seleccionoPos){
 			cargarTresOpciones(ultimaOpcion);
 		}	
@@ -117,7 +124,7 @@ var pre = preguntas[numeroPregunta];
 				function(data){
 					$("#sendEmail").slideUp("normal", function() {				   
 						if(data == 'enviado'){
-                                                      $("#sendEmail").before('<h1>¡Muchas Gracias!</h1><p>Su cuestionario fue enviado a la Licenciada Macarena Martín.</p>');
+                                                      $("#sendEmail").before('<div id="muchasGracias"></div><p>Su cuestionario fue enviado a la Licenciada Macarena Martín.</p>');
                                                    
                                                 }else{
 						       $("#sendEmail").before('<h1>Atención!</h1><p>Ocurrió un error y su cuestionario no fue enviado! Por favor copie este mensaje completo y envielo a macarena.martin@outlook.com</p><p>' + html + '</p>');																						

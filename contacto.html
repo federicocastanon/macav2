@@ -20,13 +20,13 @@
 					<div id="orientacion">
 						<a href="orientacion.html"></a>
 					</div>
-					<div id="contacto" class="seleccionado">
+					<div id="contacto" >
 						<a href="contacto.html"></a>
 					</div>
 				</div>
 			</div>
 			<div id="cuerpo">
-				<h1> Contactame </h1>
+				<div id="titContacto"></div>
 				<p class="titulomenor" style="max-width: 500px">
 					No dudes en enviarme cualquier consulta
 				</p>
@@ -49,13 +49,13 @@
 						</div>
 						<div class="campoForm ">
 							<p class="requerido">
-								Consultas
+								Consulta
 							</p>
 							<textarea id="consulta" class="campoFormTextArea" name="consulta" 
 							cols="50" rows="3" tabindex="4" ></textarea>							
 						</div>
 						<div class="botones">
-							<input type="button" value="Enviar" id="manda" name="manda" onclick="javascript:validar();">
+							<div id="botonEnviar" name="manda" onclick="javascript:validar();"></div>
 						</div>
 					</div>
 
