@@ -85,6 +85,8 @@
 	height: 47px;
 	width: 182px;
 	float: left;
+	margin-top: 5px;
+	cursor: pointer;
 }
 #logo:hover {
 	background: url('images/logoheader_onhover.png');
@@ -101,8 +103,7 @@ html, body, #wrapperHome, #wrapper {
 }
 #cuerpoHome {
 	min-width: 960px;
-	width: 80%;
-	height: 100%;
+	width: 80%;	
 	margin: auto;
 }
 #cuerpo {
@@ -113,7 +114,7 @@ html, body, #wrapperHome, #wrapper {
 	min-height: 500px;
 	height: 80%;
 	font-family: roboto;
-	font-size: big;
+	font-size: 16px;
 	color: #666666;
 }
 #cuerpo p {
@@ -121,7 +122,7 @@ html, body, #wrapperHome, #wrapper {
 }
 #cuerpo h1 {
 	margin-bottom: 30px;
-	font-size: 32px;
+	font-size: 24px;
 }
 #wrapperImagen {
 	width: 576px;
@@ -183,24 +184,52 @@ html, body, #wrapperHome, #wrapper {
 	position: relative;
 }
 .campoForm {
-	margin: 2% 2% 4% 0;
-	width: 350px;
+	margin: 10px 2% 20px 0;
+	width: 235px;
 	min-height: 22px;
 	font-family: roboto;
 	color: #a3a3a3;
 	font-size: 16px;
 }
 .campoform .label {
-	width: 185px;;
+	width: 50px;
 	float: right;
 }
 .requerido {
-	width: 210px;
+	width: 70px;
 	float: left;
 	text-align: right;
 }
 
 .requerido:after {
+	content: '    ' url('images/infomas.png');
+	width: 5px;
+	height: 7px;
+}
+.campoFormC {
+	margin: 10px 2% 20px 0;
+	width: 275px;
+	min-height: 22px;
+	font-family: roboto;
+	color: #a3a3a3;
+	font-size: 16px;
+}
+.campoFormC select {
+	float: right;
+}
+.campoFormC input {
+	border: 0;
+	border-bottom: 1px solid #a3a3a3;
+	float: right;
+	padding: 0;
+}
+.requeridoC {
+	width: 110px;
+	float: left;
+	text-align: right;
+}
+
+.requeridoC:after {
 	content: '    ' url('images/infomas.png');
 	width: 5px;
 	height: 7px;
@@ -232,6 +261,7 @@ html, body, #wrapperHome, #wrapper {
 }
 .contenedorPregunta {
 	margin: 40px 0 40px 0;
+	max-width: 500px;
 }
 .botonera {
 	min-height: 46px;	
@@ -246,16 +276,20 @@ html, body, #wrapperHome, #wrapper {
 	content: '    ' url('images/infomas.png');
 	width: 15px;
 	height: 14px;
+	margin-right: 5px;
 }
 #contenedorOpciones {
 	min-height: 284px;
+	max-width: 700px;
 }
 
 #accordion {
 	float: left;
+	width: 500px;
 }
 #accordion h3 {
 	cursor: pointer;
+	margin-bottom: 0px;
 }
 #accordion div {
 
@@ -272,6 +306,7 @@ html, body, #wrapperHome, #wrapper {
 	width: 83px;
 	height: 30px;
 	float: right;
+	margin-top: 0.75em;
 }
 #testOnline a {
 	display: block;
@@ -281,6 +316,17 @@ html, body, #wrapperHome, #wrapper {
 #testOnline:hover {
 	background: url('images/b_test_onhover.png');
 }
+#empezarTest{
+	width: 183px;
+	height: 54px;
+	background: url('images/b_test_begin.png');
+	cursor: pointer;
+}
+#empezarTest:hover{
+	background: url('images/b_test_begin_onhover.png');
+	cursor: pointer;
+}
+
 .megusta, .megustaAnulado, .megustaSelected, .noMeGusta, .noMeGustaAnulado, .noMeGustaSelected {
 	width: 169px;
 	height: 46px;
@@ -296,9 +342,11 @@ html, body, #wrapperHome, #wrapper {
 }
 .megustaSelected {
 	background: url('images/gusta_mas_selected.png');
+	cursor: default;
 }
 .megustaAnulado {
 	background: url('images/gusta_mas_null.png');
+	cursor: default;
 }
 .noMeGusta {
 	background: url('images/gusta_menos.png');
@@ -310,9 +358,11 @@ html, body, #wrapperHome, #wrapper {
 }
 .noMeGustaSelected {
 	background: url('images/gusta_menos_selected.png');
+	cursor: default;
 }
 .noMeGustaAnulado {
 	background: url('images/gusta_menos_null.png');
+	cursor: default;
 }
 #muchasGracias{
 	width: 423px;
@@ -323,7 +373,30 @@ html, body, #wrapperHome, #wrapper {
 	width: 123px;
 	height: 54px;
 	background: url('images/enviar.png');
+	cursor: pointer;
 }
 #botonEnviar:hover{
 	background: url('images/enviar_onhover.png');
 }
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+	font-weight: normal;	
+}
+.ui-state-default{
+	background: #662d8f ;
+	color: #FFFFFF;
+}
+.ui-accordion-header-active{	
+	background: #ffffff ;
+	color:#662D8F;
+	font-weight: normal;	
+}
+.ui-accordion-header-active:focus{
+	outline: 0;
+}
+

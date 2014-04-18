@@ -3,7 +3,12 @@ var emailFromVal;
 var edadVal;
 var sexoVal;
 $(document).ready(function(){
-	$("#continuar").click(function(){
+
+	$('#logo').click(function() {
+				window.location.href = "home.html";
+	});
+
+	$("#empezarTest").click(function(){
 		var hasError = false;
 		var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
 		$(".error").hide();

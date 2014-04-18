@@ -3,7 +3,8 @@
 	<head>
 		<title>Orientacion Vocacional</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/contacto.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 	<body>
@@ -31,31 +32,31 @@
 					No dudes en enviarme cualquier consulta
 				</p>
 				<h2 id="aclaracion">Todos los campos son obligatorios</h2>
-				<form class="formContacto" name="formu" id="formu" action="index.php?unirse=1&amp;ubi=0&amp;sububi=7" method="post" enctype="multipart/form-data">
+				<form class="formContacto" name="formu" id="formContacto" action="sendemail.php" method="post" enctype="multipart/form-data">
 					<div>
-						<div class="campoForm">
-							<label for="nombre" class="requerido">Nombre</label>
-							<input id="nombre" type="text" tabindex="1">
+						<div class="campoFormC">
+							<label for="nombre" class="requeridoC">Nombre</label>
+							<input class="inputrequeridoC" id="nombre" type="text" tabindex="1">
 						</div>
-						<div class="campoForm">
-							<label for="mail" class="requerido">Mail</label>
-							<input id="mail" type="email" tabindex="2">
+						<div class="campoFormC">
+							<label for="mail" class="requeridoC">Mail</label>
+							<input class="inputrequeridoC" id="mail" type="email" tabindex="2">
 						</div>
 						
 
-						<div class="campoForm">
-							<label for="organizacion" class="requerido">Cómo llegaste a ésta página</label>
-							<input id="comoll" type="text" tabindex="3" >
+						<div class="campoFormC">
+							<label for="comoll" class="requeridoC">Cómo llegaste</label>
+							<input class="inputrequeridoC" id="comoll" type="text" tabindex="3" >
 						</div>
-						<div class="campoForm ">
-							<p class="requerido">
+						<div class="campoFormC ">
+							<p class="requeridoC">
 								Consulta
 							</p>
-							<textarea id="consulta" class="campoFormTextArea" name="consulta" 
+							<textarea class="inputrequeridoC" id="consulta" class="campoFormTextArea" name="consulta" 
 							cols="50" rows="3" tabindex="4" ></textarea>							
 						</div>
 						<div class="botones">
-							<div id="botonEnviar" name="manda" onclick="javascript:validar();"></div>
+							<div id="botonEnviar" name="manda" onclick="validar()"></div>
 						</div>
 					</div>
 

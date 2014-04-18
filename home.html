@@ -3,30 +3,10 @@
 	<head>
 		<title>Orientacion Vocacional</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/home.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<script>
-			function cambiar() {
-				
-				$('#wrapperHome').css('background', 'url(\'css/images/fondo1.jpg\')');
-				$('#wrapperHome').css('background-size', 'cover');
-				$('#inicio').css('background', 'url(\'css/images/b_inicio_onhover.png\')');
-				$('#terapia').css('background', 'url(\'css/images/b_terapia_onhover.png\')');
-				$('#orientacion').css('background', 'url(\'css/images/b_OV_onhover.png\')');
-				$('#contacto').css('background', 'url(\'css/images/b_contacto_onhover.png\')');
 
-			}
-
-			function restablecer() {
-				
-				$('#wrapperHome').css('background', 'url(\'css/images/fondo2.jpg\')');
-				$('#wrapperHome').css('background-size', 'cover');
-				$('#inicio').css('background', 'url(\'css/images/b_inicio.png\')');
-				$('#terapia').css('background', 'url(\'css/images/b_terapia.png\')');
-				$('#orientacion').css('background', 'url(\'css/images/b_OV.png\')');
-				$('#contacto').css('background', 'url(\'css/images/b_contacto.png\')');
-			}
-		</script>
 	</head>
 	<body>
 		<div id="wrapperHome">
@@ -48,7 +28,7 @@
 			</div>
 			<div id="cuerpoHome">
 				<div id="wrapperImagen">
-					<div id="imgPrincipal" onmouseenter="cambiar();" onmouseleave="restablecer();"></div>
+					<div id="imgPrincipal" src="/algo.png" ></div>
 				</div>
 			</div>
 		</div>
