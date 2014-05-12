@@ -8,5 +8,9 @@ $headers = "From: " . $mailFrom . "\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
 			
-mail($mailTo, $asunto, $cuerpo, $headers);
+if(mail($mailTo, $asunto, $cuerpo, $headers)){
+	echo "enviado";
+}else{
+	echo "todoMal";
+}
 ?>
