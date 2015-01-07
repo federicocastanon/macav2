@@ -2,6 +2,11 @@ $(document).ready(function(){
 	$('#logo').click(function() {
 				window.location.href = "home.html";
 			});
+			
+			var altura = $(window).height() * 0.75;
+			$( "#imgPrincipal" ).height(altura);
+			$( "#imgPrincipal" ).width(altura);
+			
 	$( "#imgPrincipal" ).mouseover(
 			function () {
 				
