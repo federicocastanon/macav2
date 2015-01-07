@@ -195,7 +195,7 @@ html, body, #wrapperHome, #wrapper {
 }
 .campoform .label {
 	width: 50px;
-	float: right;
+	float: left;
 }
 .requerido {
 	width: 70px;
@@ -217,12 +217,12 @@ html, body, #wrapperHome, #wrapper {
 	font-size: 16px;
 }
 .campoFormC select {
-	float: right;
+	float: left;
 }
 .campoFormC input {
 	border: 0;
 	border-bottom: 1px solid #a3a3a3;
-	float: right;
+	float: left;
 	padding: 0;
 	width: 150px;
 }
@@ -243,7 +243,7 @@ html, body, #wrapperHome, #wrapper {
 .campoForm input {
 	border: 0;
 	border-bottom: 1px solid #a3a3a3;
-	float: right;
+	float: left;
 	padding: 0;
 	width: 150px;
 }
@@ -251,6 +251,9 @@ html, body, #wrapperHome, #wrapper {
 	height: 60px;
 	float: left;
 	border: 1px solid #a3a3a3;
+}
+.error{
+	color: #FF0000;
 }
 #cv {
 	font-family: roboto;

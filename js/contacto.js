@@ -17,7 +17,7 @@ function validar() {
 			$("#titContacto").before('<div id="muchasGracias"></div><p>Su consulta fue enviada, te responderé a la brevedad</p>');
 
 		} else {
-			$("#titContacto").before('<h1>Atención!</h1><p>Ocurrió un error y su consulta no fue enviada! Por favor intentá nuevamente o escribime un correo a macarena.martin@outlook.com</p>');
+			$("#titContacto").before('<h1 class="error">Atención!</h1><p class="error">Ocurrió un error y su consulta no fue enviada! Por favor intentá nuevamente o escribime un correo a macarena.martin@outlook.com</p>');
 		}
 
 	});
