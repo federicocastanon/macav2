@@ -1,45 +1,108 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 	<head>
-		<title>Orientacion Vocacional</title>
+		<title>Lic. Macarena Martin</title>
+				<link rel="shortcut icon" href="css/images/fav.ico" />
+		<link rel="icon" type="image/ico" href="css/images/fav.ico" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script src="js/jquery.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 		<script src="js/home.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 	<body>
+		<script>
+		$(document).ready(function() {
+			$('html').css('max-width', $('html').width() - 8 + 'px');
+		});
+		
+			$(function() {
+				$("#accordion").accordion({
+					collapsible : true,
+					heightStyle : "content",
+					active : false
+				});
+			});
+		</script>
 		<div id="wrapper">
 			<div id="header">
 				<div id="logo"></div>
 				<div id="navegacion">
-					<div id="inicio">
-						<a href="home.html"></a>
-					</div>
-					<div id="terapia" >
-						<a href="terapia.html"></a>
-					</div>
-					<div id="orientacion">
-						<a href="orientacion.html"></a>
-					</div>
-					<div id="contacto">
-						<a href="contacto.html"></a>
-					</div>
+					<a href="contacto.html" class="itemNavegacion">CONTACTO</a>
+					<a href="orientacion.html" class="itemNavegacion">ORIENTACIÓN VOCACIONAL</a>
+					<a href="terapia.html" class="itemNavegacion seleccionado">ASISTENCIA PSICOTERAPÉUTICA</a>
+					<a href="home.html" class="itemNavegacion">INICIO</a>
 				</div>
 			</div>
 			<div id="cuerpo">
-				<div id="titTerapia"></div>
-				<p>
-					Mi consultorio está ubicado en el barrio de Almagro, para coordinar una entrevista de admición o
-					 despejar cualquier duda que puedas tener, escribime a 
-				</p>
-				<p style="color: #662d8f"><strong>macarena.martin@outlook.com</strong></p>
-				<p>llamame al <strong>115 996 4119</strong></p>
-				<p> o rellena el formulario de contacto!</p>
+				<h1 class="tituloPagina">Asistencia Psicoterapéutica</h1>
+
+				<div id="cv">
+					<p>
+						<strong>Macarena Martín</strong> (Universidad de Buenos Aires)
+					</p>
+					<p>
+						Formación en Psicoanálisis y Gestalt (Centro Gestáltico San Isidro).
+					</p>
+					<p>
+						Especialización en niños, adolescentes y familias
+					</p>
+					<p>
+						(Centro de Salud Mental Nº 3 “Dr. A. Ameghino”. Servicio Infanto-Juvenil)
+					</p>
+					<p>
+						“Adela Lalin y Equipo” Red de formación, prevención y asistencia psicoterapéutica
+					</p>
+					<p>
+						Consultorios en los barrios de Almagro y Colegiales.
+					</p>
+				</div>
+
+				<div id="accordion">
+					<h3>Niños</h3>
+					<div>
+						<p>
+							Los niños nos cuentan sus padecimientos en otros lenguajes. Por eso en esta etapa se trabaja con la palabra,
+							pero también a través del juego, el dibujo, la dramatización y el movimiento
+							corporal; favoreciendo la expresión emocional  e introduciéndonos en una aventura de descubrimiento conjunto.
+						</p>
+						<p>
+							La tarea es develar aquello que está generando padecimiento, lo que el niño necesita para liberarse de lo que interfiera
+							en su desarrollo pleno y  reestructurarlo, desplegando una trama o sostén interno que le permita seguir creciendo saludablemente.
+						</p>
+					</div>
+					<h3>Adolescentes</h3>
+					<div>
+						<p>
+							La adolescencia es una etapa evolutiva de grandes cambios en el campo emocional, mental y físico. Este proceso dónde se abandona
+							el rol de niño y aún no se ha estructurado la personalidad e identidad adulta, suele llegar acompañado de conflictos, exploración, ambivalencia,
+							miedos, ansiedades e inseguridades. 	Todo ello puede trabajarse en un ámbito de contención acorde a las necesidades propias de esta etapa.
+						</p>
+					</div>
+					<h3>Orientación a padres</h3>
+					<div>
+						<p>
+							La conflictiva de un niño o adolescente incluye inevitablemente a los padres. Cuando se habla de un hijo se habla también de los propios amores y
+							padeceres,  ideales  y proyectos, temores y fantasías, y  del propio modo de mirar el mundo. Este es un espacio para autodescubrirse en el rol de
+							padres, y en la propia forma de ejercerlo,
+							en un contexto de escucha sin prejuicios ni mandatos, que permita ver a los hijos tal cual son y acompañarlos en los momentos que atraviesan.
+						</p>
+					</div>
+					<h3>Familias</h3>
+					<div>
+						<p>
+							Tomando a la familia como un sistema, y teniendo en cuenta las características, historia y valores que definen a cada una de ellas, se brinda
+							un espacio dónde poder hacer foco sobre las dinámicas, las formas de comunicación, los roles y los intercambios afectivos, develando aquello
+							que produce malestar y
+							buscando conjuntamente la creación de recorridos nuevos y creativos que permitan formas sanas de vinculación entre sus miembros.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="oculto" >					
-					
-					<img src="css/images/logoheader_onhover.png" />
-				</div>
+		<div class="oculto" >
+
+			<img src="css/images/logoheader_onhover.png" />
+		</div>
 	</body>
 </html>

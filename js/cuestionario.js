@@ -26,6 +26,7 @@ $(document).ready(function() {
 	$("#resultados").hide();
 	//$("#sendEmail").hide();
 	$("#cuestionario").hide();
+
 });
 function cargarTresOpciones(numeroPregunta) {
 	seleccionoNeg = false;
@@ -39,7 +40,18 @@ function cargarTresOpciones(numeroPregunta) {
 	$('[id^="pos"]').removeClass('megustaSelected').addClass('megusta').addClass('pos');
 	$('[id^="neg"]').removeClass('noMeGustaSelected').addClass('noMeGusta').addClass('neg');
 
-	if(ultimaOpcion >= 504) {
+	$('.neg').each(function(index) {
+		$(this).click(function() {
+			neg(index, this);
+		});
+	});
+	$('.pos').each(function(index) {
+		$(this).click(function() {
+			pos(index, this);
+		});
+	});
+
+	if (ultimaOpcion >= 504) {
 		$(".sig").hide();
 		finalizar();
 		return false;
@@ -68,29 +80,35 @@ function cargarTresOpciones(numeroPregunta) {
 
 function pos(n, boton) {
 	seleccionoPos = true;
+	$('.pos').each(function(index) {
+		$(this).unbind( "click" );
+	});
 	$('#' + boton.id).removeClass('megusta').removeClass('pos').addClass("megustaSelected");
 	var posASumar = posV[n].split("|");
-	for(var i = 0; i < posASumar.length; i++) {
+	for (var i = 0; i < posASumar.length; i++) {
 		puntajes[posASumar[i]]++;
 	}
-
+	
 	$(".pos").removeClass('megusta').addClass("megustaAnulado");
-	$("#neg" + n).removeClass('noMeGusta').addClass("noMeGustaAnulado");
-	if(seleccionoNeg && seleccionoPos) {
+	$("#neg" + n).removeClass('noMeGusta').addClass("noMeGustaAnulado").unbind( "click" );
+	if (seleccionoNeg && seleccionoPos) {
 		cargarTresOpciones(ultimaOpcion);
 	}
 }
 
 function neg(n, boton) {
 	seleccionoNeg = true;
+	$('.neg').each(function(index) {
+		$(this).unbind( "click" );
+	});
 	$('#' + boton.id).removeClass('noMeGusta').removeClass('neg').addClass("noMeGustaSelected");
 	var posASumar = negV[n].split("|");
-	for(var i = 0; i < posASumar.length; i++) {
+	for (var i = 0; i < posASumar.length; i++) {
 		puntajes[posASumar[i]]++;
 	}
 	$(".neg").removeClass('noMeGusta').addClass("noMeGustaAnulado");
-	$("#pos" + n).removeClass('megusta').addClass("megustaAnulado");
-	if(seleccionoNeg && seleccionoPos) {
+	$("#pos" + n).removeClass('megusta').addClass("megustaAnulado").unbind( "click" );
+	if (seleccionoNeg && seleccionoPos) {
 		cargarTresOpciones(ultimaOpcion);
 	}
 }
@@ -99,12 +117,12 @@ function finalizar() {
 	$('#cuestionario').hide();
 	var sql = '';
 	var html = '<p>' + nombre + ' de ' + edadVal + ' años, le envia este cuestionario</p><div class="mitad titulo">Categoria</div><div class="mitad titulo">Cantidad de superposiciones</div>';
-	for(var i = 0; i < nombres.length; i++) {
+	for (var i = 0; i < nombres.length; i++) {
 		html += '<div class="mitad">' + nombres[i] + '</div><div class="mitad">' + puntajes[i] + '</div>';
 		sql += nombres[i] + '   ' + puntajes[i] + '    ';
 	}
 	//var emailToVal = 'macarena.martin@outlook.com';
-	var emailToVal = 'macamartin87@gmail.com';
+		var emailToVal = 'macamartin87@gmail.com';
 	//var emailToVal = 'federico.gonzalezc@gmail.com';
 	$("#cuestionario li.buttons").append('<img src="css/images/preloader.gif" alt="Loading" id="loading" />');
 
@@ -122,7 +140,7 @@ function finalizar() {
 		cuerpo : html
 	}, function(data) {
 		$("#sendEmail").slideUp("normal", function() {
-			if(data == 'enviado') {
+			if (data == 'enviado') {
 				$("#sendEmail").before('<div id="muchasGracias"></div><p>Su cuestionario fue enviado a la Licenciada Macarena Martín.</p>');
 
 			} else {

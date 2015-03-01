@@ -3,9 +3,9 @@ function validar() {
 	var emailToVal = 'macarena.martin@outlook.com';
 	var nombre = $('#nombre').val();
 	var mail = $('#mail').val();
-	var comoll = $('#comoll').val();
+	
 	var consulta = $('#consulta').val();
-	var html = nombre + ' que llegó por ' + comoll + 'pregunta: ' + consulta;
+	var html = nombre  + 'pregunta: ' + consulta;
 	$.post("sendemail.php", {
 		emailTo : emailToVal,
 		emailFrom : mail,

@@ -1,7 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 	<head>
-		<title>Orientacion Vocacional</title>
+		<title>Lic. Macarena Martin</title>
+		<link rel="shortcut icon" href="css/images/fav.ico" />
+		<link rel="icon" type="image/ico" href="css/images/fav.ico" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script src="js/jquery.js"></script>
 		<script src="js/contacto.js"></script>
@@ -12,24 +14,26 @@
 			<div id="header">
 				<div id="logo"></div>
 				<div id="navegacion">
-					<div id="inicio">
-						<a href="home.html"></a>
-					</div>
-					<div id="terapia">
-						<a href="terapia.html"></a>
-					</div>
-					<div id="orientacion">
-						<a href="orientacion.html"></a>
-					</div>
-					<div id="contacto" >
-						<a href="contacto.html"></a>
-					</div>
+					<a href="contacto.html" class="itemNavegacion seleccionado">CONTACTO</a>
+					<a href="orientacion.html" class="itemNavegacion">ORIENTACIÓN VOCACIONAL</a>
+					<a href="terapia.html" class="itemNavegacion">ASISTENCIA PSICOTERAPÉUTICA</a>
+					<a href="home.html" class="itemNavegacion">INICIO</a>
 				</div>
 			</div>
 			<div id="cuerpo">
-				<div id="titContacto"></div>
-				<p class="titulomenor" style="max-width: 500px">
-					No dudes en enviarme cualquier consulta
+				<h1 class="tituloPagina corto">Contacto</h1>
+				<p class="titulomenor" >
+					Por cualquier consulta o para pedir una primera entrevista, ¡no dudes en comunicarte!
+				</p>
+				<p class="titulomenor" >
+
+					-Por teléfono: (54 9) 11 5996 4119
+				</p>
+				<p class="titulomenor" >
+					-Por mail: macarena.martin@outlook.com
+				</p>
+				<p class="titulomenor" >
+					-Llenando el formulario de contacto
 				</p>
 				<h2 id="aclaracion">Todos los campos son obligatorios</h2>
 				<form class="formContacto" name="formu" id="formContacto" action="sendemail.php" method="post" enctype="multipart/form-data">
@@ -42,36 +46,19 @@
 							<label for="mail" class="requeridoC">Mail</label>
 							<input class="inputrequeridoC" id="mail" type="email" tabindex="2">
 						</div>
-						
-
-						<div class="campoFormC">
-							<label for="comoll" class="requeridoC">Cómo llegaste</label>
-							<input class="inputrequeridoC" id="comoll" type="text" tabindex="3" >
-						</div>
 						<div class="campoFormC ">
 							<p class="requeridoC">
 								Consulta
 							</p>
 							<textarea class="inputrequeridoC" id="consulta" class="campoFormTextArea" name="consulta" 
-							cols="50" rows="3" tabindex="4" ></textarea>							
-						</div>
-						<div class="botones">
+							cols="50" rows="3" tabindex="4" ></textarea>
 							<div id="botonEnviar" name="manda" onclick="validar()"></div>
 						</div>
+
 					</div>
 
 				</form>
-				<div id="cv">
-					<p>
-						<strong>Macarena Martín</strong> - (54 9) 115 996 4119
-					</p>
-					<p id="tituloUni">
-						Licenciada en Psicología - Egresada de la Universidad de Buenos Aires
-					</p>
-					<p id="concurrencia">
-						Concurrente en el Hospital Ameghino
-					</p>
-				</div>
+
 			</div>
 		</div>
 		<div class="oculto" >

@@ -1,8 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 	<head>
-		<title>Orientacion Vocacional</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
+		<title>Lic. Macarena Martin</title>
+		<link rel="shortcut icon" href="css/images/fav.ico" />
+		<link rel="icon" type="image/ico" href="css/images/fav.ico" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="js/jquery.js"></script>
 		<script src="js/submitform.js" type="text/javascript"></script>
@@ -13,18 +15,10 @@
 			<div id="header">
 				<div id="logo"></div>
 				<div id="navegacion">
-					<div id="inicio">
-						<a href="home.html"></a>
-					</div>
-					<div id="terapia" >
-						<a href="terapia.html"></a>
-					</div>
-					<div id="orientacion" >
-						<a href="orientacion.html"></a>
-					</div>
-					<div id="contacto">
-						<a href="contacto.html"></a>
-					</div>
+					<a href="contacto.html" class="itemNavegacion">CONTACTO</a>
+					<a href="orientacion.html" class="itemNavegacion seleccionado">ORIENTACIÓN VOCACIONAL</a>
+					<a href="terapia.html" class="itemNavegacion">ASISTENCIA PSICOTERAPÉUTICA</a>
+					<a href="home.html" class="itemNavegacion">INICIO</a>
 				</div>
 			</div>
 			<div id="cuerpo">
@@ -60,10 +54,10 @@
 						<p id="texto1" class="opcion"></p>
 						<div class="botonera">
 							<div class="mitad">
-								<div class="pos megusta" id="pos0" onclick="pos(0, this)" ></div>
+								<div class="pos megusta" id="pos0"  ></div>
 							</div>
 							<div class="mitadDerecha">
-								<div class="neg noMeGusta" id="neg0" onclick="neg(0, this)" ></div>
+								<div class="neg noMeGusta" id="neg0" ></div>
 							</div>
 						</div>
 					</div>
@@ -71,10 +65,10 @@
 						<p id="texto2" class="opcion"></p>
 						<div class="botonera">
 							<div class="mitad">
-								<div class="pos megusta" id="pos1" onclick="pos(1, this)" ></div>
+								<div class="pos megusta" id="pos1"  ></div>
 							</div>
 							<div class="mitadDerecha">
-								<div class="neg noMeGusta" id="neg1" onclick="neg(1, this)" ></div>
+								<div class="neg noMeGusta" id="neg1"  ></div>
 							</div>
 						</div>
 					</div>
@@ -82,21 +76,20 @@
 						<p id="texto3" class="opcion"></p>
 						<div class="botonera">
 							<div class="mitad">
-								<div class="pos megusta" id="pos2" onclick="pos(2, this)" ></div>
+								<div class="pos megusta" id="pos2"  ></div>
 							</div>
 							<div class="mitadDerecha">
-								<div class="neg noMeGusta" id="neg2" onclick="neg(2, this)"></div>
+								<div class="neg noMeGusta" id="neg2" ></div>
 							</div>
 						</div>
 					</div>
 					<div class="botones">
-						<!--<button class="fin" onclick="finalizar()" id="finalizar">Finalizar</button>-->
-						<div class="botonera"></div>
+						<!--		<button class="fin" onclick="finalizar()" id="finalizar">Finalizar</button> -->						
 						<div id="resultados"></div>
 					</div>
 				</div>
 				<div id="resultados"></div>
-				<div class="oculto" >					
+				<div class="oculto" >
 					<img src="css/images/gusta_mas_onhover.png" />
 					<img src="css/images/gusta_mas_selected.png" />
 					<img src="css/images/gusta_mas_null.png" />
